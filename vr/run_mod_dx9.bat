@@ -1,0 +1,1 @@
+..\bin\win64\vr.exe -novr -retail -debug -dev -console -condebug -fidelity -noasserts -noassert -autofidelity -windowed -noborder -dx9

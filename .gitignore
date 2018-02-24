@@ -8,3 +8,5 @@ config.cfg
 !demoheader.tmp
 video.txt
 video_tools.txt
+/vr/SAVE
+/vr/demoheader.tmp
