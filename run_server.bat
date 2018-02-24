@@ -1,0 +1,1 @@
+"bin/win64/vr.exe" -novr -noassert -dedicated -maxplayers 8 -maxplayers_override 8 +map r_longbow 

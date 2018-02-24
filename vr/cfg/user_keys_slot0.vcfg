@@ -3,5 +3,7 @@
 	"bindings"
 	{
 		"v"		"noclip"
+		"w"		"+forward"
+		"SPACE"		"+jump"
 	}
 }
