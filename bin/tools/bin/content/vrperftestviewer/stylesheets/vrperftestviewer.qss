@@ -1,0 +1,250 @@
+/* FROM COMMON */
+QLabel
+{
+	font-size: 8pt;
+}
+
+QPushButton
+{
+	font-size: 8pt;
+	outline: 0;
+}
+
+QCheckBox
+{
+	font-size: 8pt;
+}
+
+QComboBox
+{
+	font-size: 8pt;
+}
+
+QListView
+{
+    outline: 0;
+}
+
+/*__________________________________
+ 
+			VR WINDOW
+__________________________________*/
+
+
+CQVRWindow
+{
+  background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgb(28,36,41), stop:1 rgb(25,25,25));
+	border-width: 1px;
+	border-style: solid;
+	border-image: url( icons:border_gradient.png);
+	margin: 0px 0px 0px 0px;
+}
+
+
+CQVRWindow QLabel
+{
+	color: rgb( 196, 196, 196);
+}
+
+CQVRWindowCloseButton
+{
+	background-color: transparent;
+	border: 0px; 
+	margin: 0px; 
+	margin-right: 0px;
+	margin-top: 2px;
+	max-width: 16px;
+	min-width: 16px;
+	image: url( icons:icon_vrwindow_close.png);
+}
+
+CQVRWindowCloseButton:hover
+{
+	image: url( icons:icon_vrwindow_close_hover.png);
+}
+
+
+CQVRWindowTitleLabel
+{
+	font-size: 10pt;
+	color: rgb( 196, 196, 196);
+	background-color: transparent;
+	margin-left: 5px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+CQDiagnosticsWindow CQVRWindowTitleLabel
+{
+	font-size: 11pt;
+	color: rgb( 196, 196, 196);
+	background-color: transparent;
+	margin-left: 5px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+
+
+CQWindowTitleDivider
+{
+	qproperty-upper_line_color: rgb( 70, 70, 70);
+	qproperty-lower_line_color: transparent;
+	margin-top: 1px;
+	margin-bottom: 0px;
+	background-color: transparent;
+	min-height: 2px;
+	max-height: 2px;
+	margin-left: 5px;
+}
+
+CQVRWindow QLabel#Icon
+{
+	color: rgb( 196, 196, 196);
+	background-color: transparent;
+}
+
+
+/* PERF */
+CQVRPerfTestGraph
+{
+	qproperty-green_color: rgb(  130, 178, 23 );
+	qproperty-red_color: rgb(  185, 74, 85 );
+	qproperty-blue_color: rgb( 35, 172, 236 );
+	qproperty-text_color: rgb( 160, 160, 160 );
+}
+
+
+CQVRPerfTestProgressBar
+{
+	qproperty-green_color: rgb(  130, 178, 23 );
+	qproperty-red_color: rgb(  185, 74, 85 );
+	qproperty-yellow_color: rgb( 232, 206, 16 );
+}
+
+
+CQVRPerfTestResultsWindow
+{
+	qproperty-tabstop: 160;
+}
+
+
+CQVRPerfTestResultsWindow QLabel
+{
+	font: 10pt;
+}
+
+CQVRPerfTestResultsWindow QLabel[SectionTitle=true]
+{
+	font: 10pt;
+	font: bold;
+}
+
+CQVRPerfTestResultsWindow QLabel#PassLabel
+{
+	font: 15pt;
+	font: bold;
+}
+
+CQVRPerfTestResultsWindow QLabel[VRUnready=true]
+{
+	color: rgb(  185, 74, 85 );
+}
+
+CQVRPerfTestResultsWindow QLabel[VRReady=true]
+{
+	color: rgb( 130, 178, 23 );
+}
+
+CQVRPerfTestResultsWindow QLabel[VRAdequate=true]
+{
+	color: rgb( 232, 206, 16 );
+}
+
+CQVRPerfTestResultsWindow QLabel[VRUnreadySmall=true]
+{
+	color: rgb(  185, 74, 85 );
+	font: 10pt;
+}
+
+CQVRPerfTestResultsWindow QLabel[VRReadySmall=true]
+{
+	color: rgb( 130, 178, 23 );
+	font: 10pt;
+}
+
+
+CQVRPerfTestResultsWindow QLabel[VRAdequateSmall=true]
+{
+	color: rgb( 232, 206, 16 );
+	font: 10pt;
+}
+
+
+CQVRPerfTestResultsWindow QLabel#PerfTestResults_LabelFPS
+{
+	color: rgb( 25, 185, 25 );
+	font: 10pt;
+}
+
+CQVRPerfTestResultsWindow QLabel#LabelFidelityLevel
+{
+	margin-top: 10px;
+	color: rgb( 25, 25, 185 );
+	font: 10pt;
+}
+
+CQVRPerfTestResultsWindow QLabel#Label90FPS
+{
+	color: rgb( 185, 25, 25 );
+	font: 10pt;
+}
+
+
+
+
+CQVRPerfTestResultsWindow QPushButton#ShowDetailsButton
+{
+	font-size: 10pt;
+	outline: 0;
+	color: rgb( 210, 210, 210);
+
+    text-align: left;
+    padding-left: 15px;
+    margin: 0px 0px 0px 0px;
+    border: none;
+    border-radius: 2px;
+    min-width: 130px;
+
+	background-image: url( icons:triangle_expand.png);
+	background-repeat:no-repeat;                  
+	background-position:left bottom;
+}
+
+CQVRPerfTestResultsWindow QPushButton#HideDetailsButton
+{
+	font-size: 10pt;
+	outline: 0;
+	
+	color: rgb( 210, 210, 210);
+
+    text-align: left;
+    padding-left: 15px;
+    margin: 0px 0px 10px 0px;
+    border: none;
+    border-radius: 2px;
+    min-width: 130px;
+
+	background-image: url( icons:triangle_contract.png);
+	background-repeat:no-repeat;                  
+  background-position:left bottom;
+
+}
+
+CQVRPerfTestDivider
+{
+	qproperty-upper_line_color: rgb( 70, 70, 70);
+	qproperty-lower_line_color: transparent;
+	margin-top: 1px;
+	margin-bottom: 2px;
+}
