@@ -2,12 +2,12 @@
 {
 	"player"
 	{
-		"originX"		"3204.131104"
-		"originY"		"225.850113"
-		"originZ"		"256.031250"
-		"anglesX"		"9.058706"
-		"anglesY"		"96.874062"
-		"anglesZ"		"-0.000000"
+		"originX"		"-530.540283"
+		"originY"		"-775.802490"
+		"originZ"		"15.823009"
+		"anglesX"		"2.505690"
+		"anglesY"		"18.573950"
+		"anglesZ"		"0.000000"
 		"values"
 		{
 			"model"		"models/player.vmdl"

@@ -1,0 +1,10 @@
+# Files to ignore when considering what GIT should commit.
+
+
+config.cfg
+*.tmp
+*.spe
+*.log
+!demoheader.tmp
+video.txt
+video_tools.txt
