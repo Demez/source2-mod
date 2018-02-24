@@ -1,8 +1,8 @@
 "GameInfo"
 {
-	game 		"SteamVR Performance Test - Please wait several minutes while your system is being evaluated..."
-	title 		"SteamVR Performance Test"
-	type		singleplayer_only
+	game 		"Perf Test"
+	title 		"Perf Test"
+	type		multiplayer_only
 	nomodels 1
 	nohimodel 1
 	l4dcrosshair 1
@@ -17,7 +17,7 @@
 	SupportsDX8	0
 	tonemapping 0 // Hide tonemapping ui in tools mode
 	GameData	"vr.fgd"
-	DefaultToVr 1
+	DefaultToVr 0
 
 	FileSystem
 	{

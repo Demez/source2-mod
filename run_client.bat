@@ -1,1 +1,1 @@
-"bin/win64/vr.exe" -novr -noassert -gl
+"bin/win64/vr.exe" -novr -gl
