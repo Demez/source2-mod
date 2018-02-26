@@ -1,0 +1,12 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "aerial_perspective.vfx"
+
+	F_EXTINCTION 1
+
+	g_flFalloffExtinction "0.300"
+	g_vBm "[0.000 0.000 0.000]"
+	g_vBr "[0.000 0.000 0.001]"
+}

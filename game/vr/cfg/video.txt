@@ -1,0 +1,13 @@
+"video.cfg"
+{
+	"VendorID"		"4318"
+	"DeviceID"		"7041"
+	"setting.fullscreen"		"0"
+	"setting.coop_fullscreen"		"0"
+	"setting.nowindowborder"		"0"
+	"setting.mat_vsync"		"1"
+	"setting.fullscreen_min_on_focus_loss"		"1"
+	"setting.defaultres"		"1280"
+	"setting.defaultresheight"		"720"
+	"setting.shaderquality"		"1"
+}

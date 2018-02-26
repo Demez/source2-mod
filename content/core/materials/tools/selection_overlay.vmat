@@ -1,0 +1,21 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "tools_selection_overlay.vfx"
+
+	//---- OverrideColor ----
+	g_OverrideColorFactor "0.000"
+	g_vOverrideColor "[0.000000 0.000000 0.000000 0.000000]"
+
+	Attributes
+	{
+		tools.toolsmaterial "1"
+	}
+
+	DynamicParams
+	{
+		g_OverrideColorFactor "OverrideColorFactor"
+		g_vOverrideColor "OverrideColor"
+	}
+}

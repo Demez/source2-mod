@@ -1,0 +1,102 @@
+// Fire Animated Sequence
+sequence 0
+//frame Fire_Particle_2_05.tga 1
+//frame Fire_Particle_2_06.tga 1
+//frame Fire_Particle_2_07.tga 1
+//frame Fire_Particle_2_08.tga 1
+//frame Fire_Particle_2_09.tga 1
+//frame Fire_Particle_2_10.tga 1
+//frame Fire_Particle_2_11.tga 1
+//frame Fire_Particle_2_12.tga 1
+//frame Fire_Particle_2_14.tga 1
+//frame Fire_Particle_2_16.tga 1
+//frame Fire_Particle_2_18.tga 1
+//frame Fire_Particle_2_20.tga 1
+//frame Fire_Particle_2_22.tga 1
+//frame Fire_Particle_2_24.tga 1
+frame Fire_Particle_2_26.tga 1
+frame Fire_Particle_2_28.tga 1
+frame Fire_Particle_2_30.tga 1
+frame Fire_Particle_2_32.tga 1
+frame Fire_Particle_2_34.tga 1
+frame Fire_Particle_2_36.tga 1
+frame Fire_Particle_2_38.tga 1
+frame Fire_Particle_2_40.tga 1
+frame Fire_Particle_2_42.tga 1
+frame Fire_Particle_2_44.tga 1
+frame Fire_Particle_2_46.tga 1
+frame Fire_Particle_2_48.tga 1
+frame Fire_Particle_2_50.tga 1
+frame Fire_Particle_2_52.tga 1
+frame Fire_Particle_2_54.tga 1
+frame Fire_Particle_2_56.tga 1
+frame Fire_Particle_2_58.tga 1
+frame Fire_Particle_2_60.tga 1
+
+//Fire single frame sequences
+sequence 1
+frame Fire_Particle_2_50.tga 1
+sequence 2
+frame Fire_Particle_2_52.tga 1
+sequence 3
+frame Fire_Particle_2_54.tga 1
+sequence 4
+frame Fire_Particle_2_56.tga 1
+sequence 5
+frame Fire_Particle_2_58.tga 1
+sequence 6
+frame Fire_Particle_2_60.tga 1
+sequence 7
+frame Fire_Particle_2_26.tga 1
+sequence 8
+frame Fire_Particle_2_28.tga 1
+sequence 9
+frame Fire_Particle_2_44.tga 1
+sequence 10
+frame Fire_Particle_2_46.tga 1
+sequence 11
+frame Fire_Particle_2_48.tga 1
+sequence 12
+frame Fire_Particle_2_50.tga 1
+sequence 13
+frame Fire_Particle_2_52.tga 1
+sequence 14
+frame Fire_Particle_2_54.tga 1
+sequence 15
+frame Fire_Particle_2_56.tga 1
+sequence 16
+frame Fire_Particle_2_58.tga 1
+sequence 17
+frame Fire_Particle_2_28.tga 1
+sequence 18
+frame Fire_Particle_2_30.tga 1
+sequence 19
+frame Fire_Particle_2_32.tga 1
+sequence 20
+frame Fire_Particle_2_34.tga 1
+sequence 21
+frame Fire_Particle_2_36.tga 1
+sequence 22
+frame Fire_Particle_2_38.tga 1
+sequence 23
+frame Fire_Particle_2_40.tga 1
+sequence 24
+frame Fire_Particle_2_42.tga 1
+sequence 25
+frame Fire_Particle_2_44.tga 1
+sequence 26
+frame Fire_Particle_2_46.tga 1
+sequence 27
+frame Fire_Particle_2_48.tga 1
+sequence 28
+frame Fire_Particle_2_50.tga 1
+sequence 29
+frame Fire_Particle_2_52.tga 1
+sequence 30
+frame Fire_Particle_2_54.tga 1
+sequence 31
+frame Fire_Particle_2_56.tga 1
+sequence 32
+frame Fire_Particle_2_58.tga 1
+sequence 33
+frame Fire_Particle_2_60.tga 1

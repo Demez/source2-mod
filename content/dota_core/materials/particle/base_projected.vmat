@@ -1,0 +1,35 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "projected_dota.vfx"
+
+	//---- Fade decal based on slope calculated against UP vector ----
+	F_SLOPED 1
+
+	g_flAlphaRange "0.700"
+	g_flSolidRange "0.900"
+
+	//---- Color ----
+	TextureColor "materials/particle/base_projected_color.tga"
+
+	//---- Translucency ----
+	TextureTranslucency "materials/particle/base_projected_trans.tga"
+
+	"legacy_import"
+	{
+		"Projected"
+		{
+			"$basetexture"		"particle\base_projected_color"
+			"$translucent"		"1"
+			"$SPECULAR_BLOOM_SCALE"		"10"
+			"$SPECULAREXPONENT"		"23"
+			"$SPECULARSCALE"		"22"
+			"$SPECULARCOLOR"		"[1.0 0.9 0.1]"
+			"$RIMLIGHTCOLOR"		"[1.0 0.7 0.3]"
+			"$RIMLIGHTSCALE"		"10"
+			"$SOLID_RANGE"		"0.900000"
+			"$ALPHA_RANGE"		"0.700000"
+		}
+	}
+}

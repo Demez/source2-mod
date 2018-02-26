@@ -1,0 +1,14 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "tools_visualize_collision_mesh.vfx"
+
+	F_DEPTH_TEST 1
+	F_WIREFRAME 1
+
+	Attributes
+	{
+		tools.toolsmaterial "1"
+	}
+}

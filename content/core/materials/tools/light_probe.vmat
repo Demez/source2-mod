@@ -1,0 +1,11 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "tools_light_probe.vfx"
+
+	Attributes
+	{
+		tools.toolsmaterial "1"
+	}
+}

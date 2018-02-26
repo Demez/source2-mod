@@ -1,0 +1,19 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "tools_wireframe.vfx"
+
+	F_UNLIT 1
+	F_WIREFRAME 1
+
+	//---- Depth Bias Amount ----
+	g_DepthBiasAmount "0.005"
+
+	//---- Line Thickness ----
+	g_LineThickness "1.000"
+
+	//---- Override Color ----
+	g_OverrideColorFactor "0.000"
+	g_vOverrideColor "[0.000000 0.000000 0.000000 0.000000]"
+}

@@ -1,0 +1,9 @@
+"video.cfg"
+{
+	"setting.fullscreen"		"0"
+	"setting.nowindowborder"		"0"
+	"setting.mat_vsync"		"0"
+	"setting.defaultres"		"1024"
+	"setting.defaultresheight"		"768"
+	"setting.shaderquality"		"1"
+}

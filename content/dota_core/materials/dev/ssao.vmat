@@ -1,0 +1,13 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "ssao.vfx"
+
+	//---- Noise ----
+	TextureNoise "materials/dev/ssao_noise.tga"
+
+	//---- Options ----
+	g_flSampleRadius "100.000"
+	g_flSSAOBias "0.250"
+}

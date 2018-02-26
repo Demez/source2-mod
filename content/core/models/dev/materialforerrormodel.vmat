@@ -1,0 +1,21 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "generic.vfx"
+
+	//---- Color ----
+	g_vColorTint "[0.752941 0.250980 0.000000 0.000000]"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	TextureColor "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Lighting ----
+	g_vGlossinessRange "[0.000 1.000]"
+	TextureGlossiness "materials/default/default_gloss.tga"
+
+	//---- Normal Map ----
+	g_flBumpStrength "1.000"
+	g_vNormalTexCoordScale "[1.000 1.000]"
+	TextureNormal "materials/default/default_normal.tga"
+}

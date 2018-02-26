@@ -1,0 +1,47 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "global_lit_simple.vfx"
+
+	//---- Specular ----
+	F_SPECULAR 1
+
+	//---- Translucent ----
+	F_TRANSLUCENT 1
+
+	//---- Color ----
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	TextureColor "materials/default/default_color.tga"
+
+	//---- Self Illum ----
+	TextureSelfIllumMask "materials/default/default_selfillum.tga"
+
+	//---- Specular ----
+	g_flSpecularBloom "0.000"
+	g_flSpecularIntensity "1.000"
+	TextureBloom "materials/default/default_bloom.tga"
+	TextureReflectance "materials/default/default_specmask.tga"
+
+	//---- Translucent ----
+	g_flOpacityScale "1.000"
+	TextureTranslucency "materials/default/default_trans.tga"
+
+	Attributes
+	{
+		houShader "shader"
+		defShader "generic.vfx"
+		dispShader "prototype_tessellation.vfx"
+		houColor "TextureColor"
+		houSpec_mask "TextureReflectance"
+		houTrans "TextureTranslucency"
+		houNormal "TextureNormal"
+		houDisp "TextureDisplacement"
+		enableTrans "F_TRANSLUCENT"
+		enableSpec "F_SPECULAR"
+		enableSpecMask "F_SPECULAR_MASK_TEXTURE"
+		enableNormal "F_NORMAL_MAP"
+	}
+}

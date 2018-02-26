@@ -1,0 +1,28 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "global_lit_simple.vfx"
+
+	//---- Translucent ----
+	F_TRANSLUCENT 1
+
+	//---- Color ----
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	TextureColor "materials/tools/occluder_color.tga"
+
+	//---- Translucent ----
+	g_flOpacityScale "1.000"
+	TextureTranslucency "[0.611765 0.611765 0.611765 0.000000]"
+
+	Attributes
+	{
+		mapbuilder.occluder "1"
+		mapbuilder.nonsolid "1"
+		mapbuilder.donotcollapse "1"
+		nocollision "1"
+		tools.toolsmaterial "1"
+	}
+}

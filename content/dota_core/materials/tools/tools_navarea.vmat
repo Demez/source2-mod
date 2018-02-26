@@ -1,0 +1,27 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "global_lit_simple.vfx"
+
+	//---- Translucent ----
+	F_TRANSLUCENT 1
+
+	//---- Color ----
+	g_vColorTint "[1.000000 1.000000 1.000000 1.000000]"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	TextureColor "materials/default/default_color.tga"
+
+	//---- Translucent ----
+	g_flOpacityScale "0.750"
+	TextureTranslucency "materials/default/default_trans.tga"
+
+	Attributes
+	{
+		mapbuilder.nodraw "1"
+		mapbuilder.playerclip "1"
+		mapbuilder.npcclip "1"
+		tools.toolsmaterial "1"
+	}
+}

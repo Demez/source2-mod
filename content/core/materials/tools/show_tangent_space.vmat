@@ -1,0 +1,21 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "tools_visualize_tangent_frame.vfx"
+
+	//---- General ----
+	F_SHOW_TANGENTS 1
+
+	g_flVectorLength "1.000"
+
+	Attributes
+	{
+		tools.toolsmaterial "1"
+	}
+
+	DynamicParams
+	{
+		g_flVectorLength "vectorLength"
+	}
+}

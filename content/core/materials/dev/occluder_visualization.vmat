@@ -1,0 +1,14 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "occluder_vis.vfx"
+
+	//---- Color ----
+	g_flOpacity "0.628"
+	g_vColor1 "[0.082353 0.000000 1.000000 1.000000]"
+	g_vColor2 "[0.000000 0.000000 0.000000 1.000000]"
+
+	//---- Depth Bias ----
+	g_flDepthBias "0.206"
+}

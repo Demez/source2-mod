@@ -1,0 +1,37 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "post_process.vfx"
+
+	//---- Film Grain ----
+	F_FILM_GRAIN 1
+
+	//---- Vignette ----
+	F_VIGNETTE 1
+
+	//---- Color Exponents ----
+	g_flColorExpBlue "1.000"
+	g_flColorExpGreen "1.000"
+	g_flColorExpRed "1.000"
+
+	//---- Color Tint ----
+	g_flColorScale "1.000"
+	g_vColorTint "[1.000000 0.937255 0.792157 0.000000]"
+
+	//---- Film Grain ----
+	g_flFilmGrainIntensity "0.000"
+	g_flFilmGrainRange "0.000"
+	TextureNoise "materials/dev/film_grain_noise.tga"
+
+	//---- HSV ----
+	g_flBrightness "1.040"
+	g_flContrast "1.010"
+	g_flHueShift "0.000"
+	g_flSaturate "1.040"
+
+	//---- Vignette ----
+	g_flVignetteExponent "32.000"
+	g_flVignetteStrength "1.000"
+	g_flVignetteVerticalFade "0.000"
+}

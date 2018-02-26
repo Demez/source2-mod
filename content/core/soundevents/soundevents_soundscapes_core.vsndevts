@@ -1,0 +1,1225 @@
+///////////////////////////////////////////////////////////////////////////////////
+// 
+// Soundscape Tests
+//
+//////////////////////////////////////////////////////////////////////////////////
+"Soundscapes.test_loop"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"		"sos_reference_stack"
+				"reference_stack"		"soundscape_looping_sound_2D"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/diagnostics/singing_bowl_lp_01.vsnd"
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+"Soundscapes.loop_rain_light"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"		"sos_reference_stack"
+				"reference_stack"		"soundscape_looping_sound_2D"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/diagnostics/rain_light_lp_01.vsnd"
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+"Soundscapes.loop_rain_heavy"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"		"sos_reference_stack"
+				"reference_stack"		"soundscape_looping_sound_2D"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/diagnostics/rain_heavy_lp_01.vsnd"
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+"Soundscapes.loop_wind_light"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"		"sos_reference_stack"
+				"reference_stack"		"soundscape_looping_sound_2D"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/diagnostics/wind_light_foliage_lp_01.vsnd"
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+"Soundscapes.loop_wind_medium"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"		"sos_reference_stack"
+				"reference_stack"		"soundscape_looping_sound_2D"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/diagnostics/wind_med_foliage_lp_01.vsnd"
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+"Soundscapes.thunder_near"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"		"sos_reference_stack"
+				"reference_stack"		"soundscape_random_sound"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value"		"sounds/diagnostics/ambient/thunder/thunder_close_01.vsnd"
+							"value"		"sounds/diagnostics/ambient/thunder/thunder_close_02.vsnd"
+							"value"		"sounds/diagnostics/ambient/thunder/thunder_close_03.vsnd"
+							"value"		"sounds/diagnostics/ambient/thunder/thunder_close_04.vsnd"
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+"Soundscapes.thunder_far"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"		"sos_reference_stack"
+				"reference_stack"		"soundscape_random_sound"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value"		"sounds/diagnostics/ambient/thunder/thunder_distant_01.vsnd"
+							"value"		"sounds/diagnostics/ambient/thunder/thunder_distant_02.vsnd"
+							"value"		"sounds/diagnostics/ambient/thunder/thunder_distant_03.vsnd"
+							"value"		"sounds/diagnostics/ambient/thunder/thunder_distant_04.vsnd"
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+"Soundscapes.test_weather"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"		"sos_reference_stack"
+				"reference_stack"		"soundscape_test_weather"
+				"operator_variables"
+				{
+				}
+			}
+		}
+	}
+}
+
+"Soundscapes.test_soundscape"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"		"sos_reference_stack"
+				"reference_stack"		"soundscape_test_play_soundscape"
+				"operator_variables"
+				{
+					"soundscape_name"
+					{
+						"value"		"Soundscapes.test_weather"
+					}
+					"soundscape_volume"
+					{
+						"value"		"0.97"
+					}
+				}
+			}
+		}
+	}
+
+}
+
+"Soundscapes.test_random_01"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"		"sos_reference_stack"
+				"reference_stack"		"soundscape_random_sound"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value"		"sounds/diagnostics/ambient/random_amb_sfx/forest_bird01.vsnd"
+							"value"		"sounds/diagnostics/ambient/random_amb_sfx/forest_bird01b.vsnd"
+							"value"		"sounds/diagnostics/ambient/random_amb_sfx/forest_bird02.vsnd"
+							"value"		"sounds/diagnostics/ambient/random_amb_sfx/forest_bird02b.vsnd"
+						}
+					}
+				}
+			}
+		}
+	}
+}
+"Soundscapes.test_random_02"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"		"sos_reference_stack"
+				"reference_stack"		"soundscape_random_sound"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value"		"sounds/diagnostics/ambient/random_amb_sfx/forest_bird03.vsnd"
+							"value"		"sounds/diagnostics/ambient/random_amb_sfx/forest_bird01b.vsnd"
+							"value"		"sounds/diagnostics/ambient/random_amb_sfx/forest_bird02.vsnd"
+							"value"		"sounds/diagnostics/ambient/random_amb_sfx/forest_bird02b.vsnd"
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+"Soundscapes.test_ramp_1"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"		"sos_reference_stack"
+				"reference_stack"		"dave_timer_test"
+				"operator_variables"
+				{						
+				}
+			}
+		}
+	}
+}
+
+"Soundscapes.test_gui"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"		"sos_reference_stack"
+				"reference_stack"		"soundscape_2rand_1loop"
+				"operator_variables"
+				{
+					"soundscape_scalar"
+					{
+						"value"		"0.98"
+					}
+
+					"loop_01_pitch_max"
+					{
+						"value"		"1.0"
+					}
+
+					"loop_01_pitch_min"
+					{
+						"value"		"0.9"
+					}
+
+					"loop_01_position"
+					{
+						"value"		"[0.0, 0.0, 0.0]"
+					}
+
+					"loop_01_soundevent_name"
+					{
+						"value"		"foo.bar"
+					}
+
+					"loop_01_soundlevel"
+					{
+						"value"		"75.0"
+					}
+
+					"loop_01_volume_max"
+					{
+						"value"		"1.0"
+					}
+
+					"loop_01_volume_min"
+					{
+						"value"		"1.0"
+					}
+			
+					"loop_01_use_vol_opvar"
+					{
+						"value"		"1.0"
+					}
+					
+					"loop_01_remap_vol_opvar_ymin"
+					{
+						"value"		"0.0"
+					}
+					
+					"loop_01_remap_vol_opvar_ymax"
+					{
+						"value"		"1.0"
+					}
+					
+					"loop_01_remap_vol_opvar_xmin"
+					{
+						"value"		"0.0"
+					}
+					
+					"loop_01_remap_vol_opvar_xmax"
+					{
+						"value"		"1.0"
+					}
+					"loop_01_vol_opvar"
+					{
+						"value"			"foo"
+					}
+					"loop_01_remap_vol_opvar_x1"
+					{
+						"value"		"1.0"
+					}
+					"loop_01_remap_vol_opvar_y1"
+					{
+						"value"		"1.0"
+					}
+					"loop_01_remap_vol_opvar_x2"
+					{
+						"value"		"1.0"
+					}
+					"loop_01_remap_vol_opvar_y2"
+					{
+						"value"		"1.0"
+					}
+					"loop_01_remap_vol_opvar_x3"
+					{
+						"value"		"1.0"
+					}
+					"loop_01_remap_vol_opvar_y3"
+					{
+						"value"		"1.0"
+					}
+					"loop_01_remap_vol_opvar_x4"
+					{
+						"value"		"1.0"
+					}
+					"loop_01_remap_vol_opvar_y4"
+					{
+						"value"		"1.0"
+					}
+
+					"random_01_delay_max"
+					{
+						"value"		"60.0"
+					}
+
+					"random_01_delay_min"
+					{
+						"value"		"0.01"
+					}
+
+					"random_01_pitch_max"
+					{
+						"value"		"1.0"
+					}
+
+					"random_01_pitch_min"
+					{
+						"value"		"0.9"
+					}
+
+					"random_01_position"
+					{
+						"value"		"[0.0, 0.0, 0.0]"
+					}
+
+					"random_01_position_random"
+					{
+						"value"		"1.0"
+					}
+
+					"random_01_position_random_max_radius"
+					{
+						"value"		"1000.0"
+					}
+
+					"random_01_position_random_min_radius"
+					{
+						"value"		"100.0"
+					}
+
+					"random_01_soundevent_name"
+					{
+						"value"		"foo.bar"
+					}
+
+					"random_01_volume_max"
+					{
+						"value"		"1.0"
+					}
+
+					"random_01_volume_min"
+					{
+						"value"		"1.0"
+					}
+
+					"random_02_delay_max"
+					{
+						"value"		"60.0"
+					}
+
+					"random_02_delay_min"
+					{
+						"value"		"0.01"
+					}
+
+					"random_02_pitch_max"
+					{
+						"value"		"1.0"
+					}
+
+					"random_02_pitch_min"
+					{
+						"value"		"0.9"
+					}
+
+					"random_02_position"
+					{
+						"value"		"[0.0, 0.0, 0.0]"
+					}
+
+					"random_02_position_random"
+					{
+						"value"		"1.0"
+					}
+
+					"random_02_position_random_max_radius"
+					{
+						"value"		"1000.0"
+					}
+
+					"random_02_position_random_min_radius"
+					{
+						"value"		"100.0"
+					}
+
+					"random_02_soundevent_name"
+					{
+						"value"		"foo.bar"
+					}
+
+					"random_02_volume_max"
+					{
+						"value"		"1.0"
+					}
+
+					"random_02_volume_min"
+					{
+						"value"		"1.0"
+					}
+			
+					"random_01_use_pct_opvar"
+					{
+						"value"		"1.0"
+					}
+					
+					"random_01_pct_opvar"
+					{
+						"value"			"foo"
+					}
+			
+					"random_01_remap_pct_opvar_ymin"
+					{
+						"value"		"0.0"
+					}
+					
+					"random_01_remap_pct_opvar_ymax"
+					{
+						"value"		"1.0"
+					}
+					
+					"random_01_remap_pct_opvar_xmin"
+					{
+						"value"		"0.0"
+					}
+					
+					"random_01_remap_pct_opvar_xmax"
+					{
+						"value"		"1.0"
+					}
+					"random_01_remap_pct_opvar_x1"
+					{
+						"value"		"1.0"
+					}
+					"random_01_remap_pct_opvar_y1"
+					{
+						"value"		"1.0"
+					}
+					"random_01_remap_pct_opvar_x2"
+					{
+						"value"		"1.0"
+					}
+					"random_01_remap_pct_opvar_y2"
+					{
+						"value"		"1.0"
+					}
+					"random_01_remap_pct_opvar_x3"
+					{
+						"value"		"1.0"
+					}
+					"random_01_remap_pct_opvar_y3"
+					{
+						"value"		"1.0"
+					}
+					"random_01_remap_pct_opvar_x4"
+					{
+						"value"		"1.0"
+					}
+					"random_01_remap_pct_opvar_y4"
+					{
+						"value"		"1.0"
+					}
+			
+					"random_01_remap_vol_opvar_ymin"
+					{
+						"value"		"0.0"
+					}
+					
+					"random_01_remap_vol_opvar_ymax"
+					{
+						"value"		"1.0"
+					}
+					
+					"random_01_remap_vol_opvar_xmin"
+					{
+						"value"		"0.0"
+					}
+					
+					"random_01_remap_vol_opvar_xmax"
+					{
+						"value"		"1.0"
+					}
+					
+					"random_01_use_vol_opvar"
+					{
+						"value"		"0.0"
+					}
+						
+					"random_01_vol_opvar"
+					{
+						"value"			"foo"
+					}
+					"random_01_remap_vol_opvar_x1"
+					{
+						"value"		"1.0"
+					}
+					"random_01_remap_vol_opvar_y1"
+					{
+						"value"		"1.0"
+					}
+					"random_01_remap_vol_opvar_x2"
+					{
+						"value"		"1.0"
+					}
+					"random_01_remap_vol_opvar_y2"
+					{
+						"value"		"1.0"
+					}
+					"random_01_remap_vol_opvar_x3"
+					{
+						"value"		"1.0"
+					}
+					"random_01_remap_vol_opvar_y3"
+					{
+						"value"		"1.0"
+					}
+					"random_01_remap_vol_opvar_x4"
+					{
+						"value"		"1.0"
+					}
+					"random_01_remap_vol_opvar_y4"
+					{
+						"value"		"1.0"
+					}	
+					
+					"random_02_use_pct_opvar"
+					{
+						"value"		"1.0"
+					}
+					
+					"random_02_pct_opvar"
+					{
+						"value"			"foo"
+					}
+			
+					"random_02_remap_pct_opvar_ymin"
+					{
+						"value"		"0.0"
+					}
+					
+					"random_02_remap_pct_opvar_ymax"
+					{
+						"value"		"1.0"
+					}
+					
+					"random_02_remap_pct_opvar_xmin"
+					{
+						"value"		"0.0"
+					}
+					
+					"random_02_remap_pct_opvar_xmax"
+					{
+						"value"		"1.0"
+					}
+					"random_02_remap_pct_opvar_x1"
+					{
+						"value"		"1.0"
+					}
+					"random_02_remap_pct_opvar_y1"
+					{
+						"value"		"1.0"
+					}
+					"random_02_remap_pct_opvar_x2"
+					{
+						"value"		"1.0"
+					}
+					"random_02_remap_pct_opvar_y2"
+					{
+						"value"		"1.0"
+					}
+					"random_02_remap_pct_opvar_x3"
+					{
+						"value"		"1.0"
+					}
+					"random_02_remap_pct_opvar_y3"
+					{
+						"value"		"1.0"
+					}
+					"random_02_remap_pct_opvar_x4"
+					{
+						"value"		"1.0"
+					}
+					"random_02_remap_pct_opvar_y4"
+					{
+						"value"		"1.0"
+					}
+			
+					"random_02_remap_vol_opvar_ymin"
+					{
+						"value"		"0.0"
+					}
+					
+					"random_02_remap_vol_opvar_ymax"
+					{
+						"value"		"1.0"
+					}
+					
+					"random_02_remap_vol_opvar_xmin"
+					{
+						"value"		"0.0"
+					}
+					
+					"random_02_remap_vol_opvar_xmax"
+					{
+						"value"		"1.0"
+					}
+					
+					"random_02_use_vol_opvar"
+					{
+						"value"		"0.0"
+					}
+						
+					"random_02_vol_opvar"
+					{
+						"value"			"foo"
+					}
+					"random_02_remap_vol_opvar_x1"
+					{
+						"value"		"1.0"
+					}
+					"random_02_remap_vol_opvar_y1"
+					{
+						"value"		"1.0"
+					}
+					"random_02_remap_vol_opvar_x2"
+					{
+						"value"		"1.0"
+					}
+					"random_02_remap_vol_opvar_y2"
+					{
+						"value"		"1.0"
+					}
+					"random_02_remap_vol_opvar_x3"
+					{
+						"value"		"1.0"
+					}
+					"random_02_remap_vol_opvar_y3"
+					{
+						"value"		"1.0"
+					}
+					"random_02_remap_vol_opvar_x4"
+					{
+						"value"		"1.0"
+					}
+					"random_02_remap_vol_opvar_y4"
+					{
+						"value"		"1.0"
+					}	
+				}
+			}
+		}
+	}
+}
+"Soundscapes.test_ramp_stop"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"		"sos_reference_stack"
+				"reference_stack"		"dave_timer_test_stop"
+				"operator_variables"
+				{						
+				}
+			}
+		}
+	}
+}
+
+"Soundscapes.test_ramp_start"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"		"sos_reference_stack"
+				"reference_stack"		"dave_timer_test_run"
+				"operator_variables"
+				{						
+				}
+			}
+		}
+	}
+}
+
+"Soundscapes.test_ramp_reset"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"		"sos_reference_stack"
+				"reference_stack"		"dave_timer_test_reset"
+				"operator_variables"
+				{						
+				}
+			}
+		}
+	}
+}
+
+"Soundscapes.test_ramp_stop_reset"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"		"sos_reference_stack"
+				"reference_stack"		"dave_timer_test_stop_reset"
+				"operator_variables"
+				{						
+				}
+			}
+		}
+	}
+}
+
+"Soundscapes.test_sb"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"		"sos_reference_stack"
+				"reference_stack"		"dave_test_sb"
+				"operator_variables"
+				{	
+				}
+			}
+		}
+	}
+}
+
+"Soundscapes.test_sb_bang"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"		"sos_reference_stack"
+				"reference_stack"		"dave_sb_bang"
+				"operator_variables"
+				{	
+				}
+			}
+		}
+	}
+}
+
+"Soundscapes.test_play_looping"
+{ // "Hero_Pudge.Rot"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"		"sos_reference_stack"
+				"reference_stack"		"soundscape_play_looping"
+				"operator_variables"
+				{	
+					"volume_max"
+					{
+						"value"		"1.000000"
+					}
+					"volume_min"
+					{
+						"value"		"0.75"
+					}
+					"pitch_max"
+					{
+						"value"		"1.25"
+					}
+					"pitch_min"
+					{
+						"value"		"0.75"
+					}
+					"position"
+					{
+						"value"		"[0.0, 0.0, 0.0]"
+					}
+					"soundevent_name"
+					{
+						"value"		"Diagnostic.update_test_start_vsnd_lfo"
+					}
+					"soundscape_scalar"
+					{
+						"value"		"1.000000"
+					}
+					"distance_max"
+					{
+						"value"		"-1.000000"
+					}
+				}
+			}
+		}
+	}
+}
+
+
+"Soundscapes.test_burst"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"		"sos_reference_stack"
+				"reference_stack"		"soundscape_play_burst"
+				"operator_variables"
+				{	
+					"burst_length"
+					{
+						"value"		"5.6"
+					}
+					"delay_time_low"
+					{
+						"value"		"0.05"
+					}
+					"delay_time_high"
+					{
+						"value"		"0.2"
+					}
+					"soundevent_name"
+					{
+						"value"			"Diagnostic.update_test_start_vsnd_lfo"
+					}
+					"position"
+					{
+						"value"			"[0.0, 0.0, 0.0]"
+					}
+				}				
+			}
+		}	
+	}
+}
+
+"Soundscapes.test_play_random"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"		"sos_reference_stack"
+				"reference_stack"		"soundscape_play_random"
+				"operator_variables"
+				{	
+					"volume_max"
+					{
+						"value"		"1.0"
+					}
+					"volume_min"
+					{
+						"value"		"0.5"
+					}
+					"pitch_max"
+					{
+						"value"		"1.1"
+					}
+					"pitch_min"
+					{
+						"value"		"0.9"
+					}
+					"delay_max"
+					{
+						"value"		"10.0"
+					}
+					"delay_min"
+					{
+						"value"		"2.5"
+					}
+					"entry_name"
+					{
+						"value"		"dave.test"
+					}
+				}
+			}
+		}	
+	}
+}
+
+"Soundscapes.test_random_pos"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"		"sos_reference_stack"
+				"reference_stack"		"dave_test_random_pos"
+				"operator_variables"
+				{	
+				}				
+			}
+		}	
+	}
+}
+
+"Soundscapes.test_multiple"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"		"sos_reference_stack"
+				"reference_stack"		"dave_test_soundscapes"
+				"operator_variables"
+				{	"soundscape_scalar"
+					{
+						"data_type"		"float"
+						"value"		"1.0"
+					}
+					
+					//////////////////
+					// PLAY RANDOM 1			
+					//////////////////		
+					"rand01_delay_min"
+					{
+						"value"		"5.0"
+					}
+					"rand01_delay_max"
+					{
+						"value"		"10.0"
+					}
+					"rand01_position_random"
+					{
+						"value"		"1"
+					}
+					"rand01_position"
+					{
+						"value"		"[0.0, 0.0, 0.0]"
+					}
+					"rand01_position_random_min_radius"
+					{
+						"value"		"100.0"
+					}
+					"rand01_position_random_max_radius"
+					{
+						"value"		"1000.0"
+					}
+					"rand01_entry_name"
+					{
+						"value"		"Soundscapes.test_random_01"
+					}
+					
+					//////////////////
+					// PLAY RANDOM 2			
+					//////////////////		
+					"rand02_delay_min"
+					{
+						"value"		"7.0"
+					}
+					"rand02_delay_max"
+					{
+						"value"		"15.0"
+					}
+					"rand02_position_random"
+					{
+						"value"		"1"
+					}
+					"rand02_position"
+					{
+						"value"		"[0.0, 0.0, 0.0]"
+					}
+					"rand02_position_random_min_radius"
+					{
+						"value"		"200.0"
+					}
+					"rand02_position_random_max_radius"
+					{
+						"value"		"400.0"
+					}
+					"rand02_entry_name"
+					{
+						"value"		"Dave.Thing2"
+					}
+					
+					//////////////////
+					// LOOP1
+					//////////////////
+					 
+					"lp_position"
+					{
+						"value"		"[0.0, 0.0, 0.0]"
+					}
+					"lp_soundevent_name"
+					{
+						"value"		"Dave.ThingLP"
+					}
+					"lp_distance_max"
+					{
+						"value"		"-1.000000"
+					}	
+				}
+			}
+		}	
+	}
+}
+
+"Soundscapes.test_floats"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"		"sos_reference_stack"
+				"reference_stack"		"dave_test_floatness"
+				"operator_variables"
+				{	
+				}
+			}
+		}
+	}
+}
+
+"Soundscapes.test_lerp_pos"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"		"sos_reference_stack"
+				"reference_stack"		"util_float3_lerp"
+				"operator_variables"
+				{	
+					"percentage"
+					{
+						"data_type"		"float"
+						"value"		"0.75"			
+					}
+				}
+			}
+		}
+	}
+}
+
+"Soundscapes.test_max_mult"  
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"		"sos_reference_stack"
+				"reference_stack"		"core_max_multiple"
+				"operator_variables"
+				{	
+					"input1"
+					{
+						"value" "5.0"	
+					}
+					"input2"
+					{	
+						"value" "10.0"
+					}
+					"input3"
+					{	
+						"value" "15.0"	
+					}
+					"input4"
+					{	
+						"value" "20.0"
+					}
+					"input5"
+					{	
+						"value" "25.0"
+					}
+					"input6"
+					{	
+						"value" "30.0"
+					} 
+				}
+			}
+		}
+	}
+}

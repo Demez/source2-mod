@@ -1,0 +1,197 @@
+///////////////////////////////////////////////////////////////////////////////////
+// 
+// Core
+//
+//////////////////////////////////////////////////////////////////////////////////
+"Example.start_oneshot_import_test"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator" "sos_reference_stack"
+				"reference_stack" "example_start_oneshot_import_test"
+				
+				"operator_variables"
+				{
+					"volume_min"
+					{	
+						"value" "0.1"	
+					}
+					"volume_max"
+					{	
+						"value" "1.0"	
+					}
+					"pitch_min"
+					{	
+						"value" "1.5"	
+					}
+					"pitch_max"
+					{	
+						"value" "2.0"	
+					}
+					"vsnd_files"
+					{
+						"value" "sounds/diagnostics/bell.vsnd"
+					}
+				}
+			}
+		}
+	}
+}
+"Example.core_start_simple_oneshot"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator" "sos_reference_stack"
+				"reference_stack" "core_start_simple_oneshot"
+				
+				"operator_variables"
+				{
+					"volume"
+					{
+						"value" "0.5"
+					}
+					"vsnd_files"
+					{
+						"value" "sounds/diagnostics/bell.vsnd"
+					}
+				}
+			}
+		}
+	}
+}
+"Example.core_start_oneshot"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator" "sos_reference_stack"
+				"reference_stack" "core_start_oneshot"
+				
+				"operator_variables"
+				{
+					"volume_min"
+					{	
+						"value" "0.1"	
+					}
+					"volume_max"
+					{	
+						"value" "1.0"	
+					}
+					"pitch_min"
+					{	
+						"value" "0.5"	
+					}
+					"pitch_max"
+					{	
+						"value" "1.5"	
+					}
+					"vsnd_files"
+					{
+						"value" "sounds/diagnostics/bell.vsnd"
+					}
+				}
+			}
+		}
+	}
+}
+
+"Example.src1_3d"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator" "sos_reference_stack"
+				"reference_stack" "src1_3d"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value" "sounds/diagnostics/bell.vsnd"
+					}
+				}
+			}
+		}
+	}
+}
+
+"Example.play_sequence4"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator" "sos_reference_stack"
+				"reference_stack" "example_play_sequence4"
+				"operator_variables"
+				{
+					"vsnd_file1"
+					{	
+						"value" "sounds/diagnostics/bell.vsnd"
+					}
+					"start_time1"
+					{
+						"value" "1.0"	
+					}
+					"volume1"
+					{	
+						"value" "1.0"	
+					}
+					"vsnd_file2"
+					{	
+						"value" "sounds/diagnostics/bell.vsnd"
+					}
+					"start_time2"
+					{
+						"value" "2.0"	
+					}
+					"volume2"
+					{	
+						"value" "1.0"	
+					}
+					"vsnd_file3"
+					{	
+						"value" "sounds/diagnostics/bell.vsnd"
+					}
+					"start_time3"
+					{
+						"value" "3.0"	
+					}
+					"volume3"
+					{	
+						"value" "1.0"	
+					}
+					"vsnd_file4"
+					{	
+						"value" "sounds/diagnostics/bell.vsnd"
+					}
+					"start_time4"
+					{
+						"value" "4.0"	
+					}
+					"volume4"
+					{	
+						"value" "1.0"	
+					}
+
+				}
+			}
+		}
+	}
+}
+

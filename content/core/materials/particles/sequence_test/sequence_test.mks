@@ -1,0 +1,37 @@
+// sequence 0 = 1 2 3 looped
+// sequence 1 = 1 2 3 clamped
+// sequence 2 = 1 2 3 4 5 6 looped
+// sequence 3 = 1 2 3 4 5 6 clamped
+//
+
+SEQUENCE 0
+loop
+frame sequence_test_0.tga 1
+frame sequence_test_1.tga 1
+frame sequence_test_2.tga 1
+frame sequence_test_3.tga 1
+
+SEQUENCE 1
+frame sequence_test_0.tga 1
+frame sequence_test_1.tga 1
+frame sequence_test_2.tga 1
+frame sequence_test_3.tga 1
+
+SEQUENCE 2
+loop
+frame sequence_test_0.tga 1
+frame sequence_test_1.tga 1
+frame sequence_test_2.tga 1
+frame sequence_test_3.tga 1
+frame sequence_test_4.tga 1
+frame sequence_test_5.tga 1
+frame sequence_test_6.tga 1
+
+SEQUENCE 3
+frame sequence_test_0.tga 1
+frame sequence_test_1.tga 1
+frame sequence_test_2.tga 1
+frame sequence_test_3.tga 1
+frame sequence_test_4.tga 1
+frame sequence_test_5.tga 1
+frame sequence_test_6.tga 1

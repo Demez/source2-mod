@@ -1,0 +1,861 @@
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// src1
+//
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//
+// "Dry" supports gamesounds with:
+// CHAR_OMNI @
+// SNDLVL_NONE
+//
+
+// CHAR_DRYMIX # means "music" which is effected by convar snd_musicvolume
+/////////////////////////////////////////////////
+// volume and pitch ranged
+/////////////////////////////////////////////////
+"src1_code_2d"
+{
+	"public"
+	{
+		"operator" "util_null"
+		"operator_variables"
+		{
+			"start"
+			{
+				"data_type" "float"
+				"value" "1.0"	
+			}
+			"mixgroup"
+			{	
+				"data_type" "string64"
+				"value" "USEPATHMATCH"
+			}
+			"volume"
+			{	
+				"data_type" "float"
+				"value" "1.0"	
+			}
+			"pitch"
+			{	
+				"data_type" "float"
+				"value" "1.0"	
+			}
+			"event_type"
+			{	
+				"data_type" "float"
+				"value" "0.0"	
+			}
+			"delay"
+			{	
+				"data_type" "float"
+				"value" "0.0"	
+			}
+			"seed"
+			{	
+				"data_type" "float"
+				"value" "-1.0"	
+			}
+			"vsnd_file_selections"
+			{	
+				"data_type" "uint64"
+				"value" "0"
+			}
+			"vsnd_files"
+			{	
+				"data_type" "vsnd"
+//				"soundevent_data" "true"
+//				"reserve_array" "32"
+				"value"
+				{
+					"value0" "sounds/common/null.vsnd"
+				}
+			}
+			"memory_type"
+			{
+				"data_type" "float"
+				"value" "0"
+			}
+		}
+	}
+
+	"source_info"
+	{
+		"operator" "game_get_source_info"
+		"source"   "entity"
+	}
+
+	"get_vsnd_array_index"
+	{
+		"operator" "opvar_get_random_array_index"
+		"check_event_data" "true"
+		"input_operator_name"	"public"
+		"input_field_name" "vsnd_files"
+		"input_selection_field_name" "vsnd_file_selections"
+		"sequence_type" "random"
+		"input_use_namespace" "false"
+		"input_seed" "@public.seed"
+	}
+	"get_vsnd"
+	{
+		"operator" "opvar_get_vsnd"
+		"check_event_data" "true"
+		"input_operator_name" "public"
+		"input_field_name" "vsnd_files"
+		"input_index" "@get_vsnd_array_index.output"
+		"input_use_namespace" "false"
+	}
+
+	"get_event_info"
+	{
+		"operator" "soundevent_get_info"
+	}	
+	"globals"
+	{
+		"operator" "get_system_globals"
+		"input_execute"	"1"
+		"input_listener_index" "0"
+	}
+
+	"mixer"
+	{
+		"operator" "soundmixer_get_mixgroup"
+		"mixgroup" "@public.mixgroup"
+		"input_vsnd" "@get_vsnd.output"
+		"input_class_name" "@source_info.output_entity_classname"
+		"input_is_player" "0.0"
+		"input_soundlevel" "65.0"
+		"input_event_type" "@public.event_type"	
+	}
+
+
+	"volume_accumulate"
+	{
+		"operator" "math_accumulate12_float"
+		"apply"	"mult"
+		"input1" "@public.volume"
+		"input2" "1.0"
+		"input3" "@mixer.output_volume"
+		"input4" "@globals.output_snd_gain_convar"
+		"input5" "1.0"
+		"input6" "1.0"
+		"input7" "1.0"
+		"input8" "1.0"
+		"input9" "1.0"
+		"input10" "1.0"
+		"input11" "1.0"
+		"input12" "1.0"
+	}
+	"mixer_trigger"
+	{
+		"operator" "soundmixer_set_trigger"
+		"input_trigger" "@volume_accumulate.output"
+		"input_mixgroups" "@mixer.output_mixgroups"	
+	}
+
+	"volume_fan"
+	{
+		"operator" "util_float_to_speakers"
+		"execute_once" "false"
+		"input" "@volume_accumulate.output"
+	}
+	"start_vsnd"
+	{
+		"operator" "sms_start_vsnd"
+		"input_vsnd" "@get_vsnd.output"
+		"execute_once" "false"
+		"input_execute" "@public.start"
+		"input_start" "@get_event_info.output_unstopped"
+		"input_speaker_volumes" "@volume_fan.output"
+		"input_pitch" "@public.pitch"
+		"input_delay" "@public.delay"
+		"input_memory_type" "@public.memory_type"
+	}
+}
+
+"src1_2d"
+{
+	"public"
+	{
+		"operator" "util_null"
+		"operator_variables"
+		{
+			"start"
+			{
+				"data_type" "float"
+				"value" "1.0"	
+			}
+			"mixgroup"
+			{	
+				"data_type" "string64"
+				"value" "USEPATHMATCH"
+			}
+			"volume_min"
+			{	
+				"data_type" "float"
+				"value" "1.0"	
+			}
+			"volume_max"
+			{	
+				"data_type" "float"
+				"value" "1.0"	
+			}
+			"pitch_min"
+			{	
+				"data_type" "float"
+				"value" "1.0"	
+			}
+			"pitch_max"
+			{	
+				"data_type" "float"
+				"value" "1.0"	
+			}
+			"event_type"
+			{	
+				"data_type" "float"
+				"value" "0.0"	
+			}
+			"delay"
+			{	
+				"data_type" "float"
+				"value" "0.0"	
+			}
+			"seed"
+			{	
+				"data_type" "float"
+				"value" "-1.0"	
+			}
+			"vsnd_file_selections"
+			{	
+				"data_type" "uint64"
+				"value" "0"
+			}
+			"vsnd_files"
+			{	
+				"data_type" "vsnd"
+				"soundevent_data" "true"
+//				"reserve_array" "32"
+				"value"
+				{
+					"value0" "sounds/common/null.vsnd"
+				}
+			}
+			"memory_type"
+			{
+				"data_type" "float"
+				"value" "0"
+			}
+		}
+	}
+	// random ranges
+	"volume_random"
+	{
+		"operator" "math_random_float"
+		"execute_once" "true"
+		"input_min" "@public.volume_min"
+		"input_max" "@public.volume_max"
+	}
+	"pitch_random"
+	{
+		"operator" "math_random_float"
+		"execute_once" "true"
+		"input_min" "@public.pitch_min"
+		"input_max" "@public.pitch_max"
+	}
+
+	"import_src1_code_2d"
+	{
+		"operator" "sos_import_stack"
+		"import_stack" "src1_code_2d"
+
+		"operator_variables"
+		{
+			"start"
+			{
+				"value" "@public.start"	
+			}
+			"mixgroup"
+			{	
+				"value" "@public.mixgroup"
+			}
+			"volume"
+			{	
+				"value" "@volume_random.output"	
+			}
+			"pitch"
+			{	
+				"value" "@pitch_random.output"	
+			}
+			"event_type"
+			{	
+				"value" "@public.event_type"	
+			}
+			"delay"
+			{	
+				"value" "@public.delay"	
+			}
+			"seed"
+			{	
+				"value" "@public.seed"	
+			}
+			"vsnd_file_selections"
+			{	
+				"value" "@public.vsnd_file_selections"
+			}
+			"vsnd_files"
+			{	
+				"value"
+				{
+					"value0" "@public.vsnd_files"
+				}
+			}
+			"memory_type"
+			{
+				"value" "@public.memory_type"
+			}
+		}
+	}
+}
+
+/////////////////////////////////////////////////
+// all the standard spatial bells and whistles
+/////////////////////////////////////////////////
+"src1_code_3d"
+{
+	"public"
+	{
+		"operator" "util_null"
+		"operator_variables"
+		{
+			"mixgroup"
+			{	
+				"data_type" "string64"
+				"value" "USEPATHMATCH"
+			}
+			"volume"
+			{	
+				"data_type" "float"
+				"value" "0.9"	
+			}
+			"pitch"
+			{	
+				"data_type" "float"
+				"value" "0.95"	
+			}
+			"soundlevel"
+			{	
+				"data_type" "float"
+				"value" "70"	
+			}
+			"delay"
+			{	
+				"data_type" "float"
+				"value" "0.0"	
+			}
+			"event_type"
+			{	
+				"data_type" "float"
+				"value" "0.0"	
+			}
+			"distance_max"
+			{	
+				"data_type" "float"
+				"value" "-1.0"	
+			}
+			"position"
+			{	
+				"data_type" "float3"
+				"value" "[0.0, 0.0, 0.0]"
+			}
+			"voice_limiter_on"
+			{	
+				"data_type" "float"
+				"value" "1.0"
+			}
+			"vsnd_file_selections"
+			{	
+				"data_type" "uint64"
+				"value" "0"
+			}
+			"vsnd_files"
+			{	
+				"data_type" "vsnd"
+//				"soundevent_data" "true"
+//				"reserve_array" "32"	
+				"value"
+				{
+					"value0" "sounds/common/null.vsnd"
+				}
+			}
+			"memory_type"
+			{
+				"data_type" "float"
+				"value" "0"
+			}
+		}
+	}
+
+	///////////////////////////////////////////////////////////////
+	// time
+	"get_event_info"
+	{
+		"operator" "soundevent_get_info"
+	}
+
+	"globals"
+	{
+		"operator" "get_system_globals"
+		"input_execute"	"1"
+		"input_listener_index" "0"
+	}
+
+	//////////////////////
+	// positions
+	"source_info"
+	{
+		"operator" "game_get_source_info"
+		"source"   "entity"
+	}
+	"get_entity_info"
+	{
+		"operator" "game_entity_info"
+		"input_entity_index" "@source_info.output_entity_index"
+		// if valid entity, but we can't get enitty position, output this position
+		"input_default_world_position" "@public.position"
+		// if not an entity, write this position
+		"input_default_local_position" "@globals.output_listener_front"
+	}
+	"distance_to_source"
+	{
+		"operator" "calc_distance"
+		"input_position1" "@get_entity_info.output_position"
+		"input_position2" "@globals.output_listener_position"
+	}
+
+	///////////////////////////////////////////////////////////////
+	// distance limiting
+	// for dota, remove for proper src1?
+	"import_dist_limit"
+	{
+		"operator" "sos_import_stack"
+		"import_stack" 	"core_distance_limiter"
+
+		"operator_variables"
+		{
+			"distance"
+			{	
+				"value" "@distance_to_source.output"
+			}
+			"distance_max"
+			{	
+				"value" "@public.distance_max"
+			}
+		}
+
+	}
+	// sound event limiting
+ 	"limit_this_soundevent_count"
+ 	{
+ 		"operator" "soundevent_limiter"
+		"input_execute" "@public.voice_limiter_on"
+		"match_this_event" "true"
+		"match_entity" "true"	
+		"input_max_events" "1"
+		"match_event_type" "@public.event_type"
+ 	}
+
+///////////////////////////////////////////////////////////////
+// src2 todo : needs channel
+	"get_vsnd_array_index"
+	{
+		"operator" "opvar_get_random_array_index"
+		"execute_once" "true"	
+		"check_event_data" "true"
+		"input_operator_name"	"public"
+		"input_field_name" "vsnd_files"
+		"input_selection_field_name" "vsnd_file_selections"
+		"sequence_type" "random"
+		"input_use_namespace" "false"
+	}
+	"get_vsnd"
+	{
+		"operator" "opvar_get_vsnd"
+		"execute_once" "true"	
+		"check_event_data" "true"
+		"input_operator_name" "public"
+		"input_field_name" "vsnd_files"
+		"input_index" "@get_vsnd_array_index.output"
+		"input_use_namespace" "false"
+	}
+
+	//////////////////////////////////////
+	// src2 should be precompiled
+	"mixer"
+	{
+		"operator" "soundmixer_get_mixgroup"
+		"mixgroup" "@public.mixgroup"
+		"input_vsnd" "@get_vsnd.output"
+		"input_class_name" "@source_info.output_entity_classname"
+		"input_is_player" "@get_entity_info.output_entity_is_player"
+		"input_soundlevel" "@public.soundlevel"
+		"input_event_type" "@public.event_type"	
+	}
+
+// src2 todo : needs channel & other things
+
+	// NOTE: uses player data, ie: SS, return least occluded value
+// 		"occlusion"
+// 		{
+// 			"operator" "calc_occlusion"
+// 			"input_source_position" "@get_entity_info.output_position"	
+// 			"input_listener_position" "@globals.output_listener_position"
+// 		}
+	// temp hack
+	"occlusion"
+	{
+		"operator" "math_float"
+		"apply" "mult"	
+		"input1" "1.0"
+		"input2" "1.0"
+	}
+///////////////////////////////////////////////////////////////
+
+	//////////////////////
+	// LEVEL
+	"level_apply_mixer"
+	{
+		"operator" "math_float"
+		"apply" "mult"	
+		"input1" "@mixer.output_level"
+		"input2" "@public.soundlevel"
+	}
+
+	/////////////////////
+	// VOLUME
+		
+	// NOTE: distance has precalculated minimum distance of the ss players			
+	"volume_falloff"
+	{
+		"operator" "calc_falloff"
+		"input_distance"  "@distance_to_source.output"
+		"input_level"	  "@level_apply_mixer.output"
+	}
+
+    // multiply all volume adjustments together
+	"volume_accumulate"
+	{
+		"operator" "math_accumulate12_float"
+		"apply"	"mult"
+		"input1" "@public.volume"
+		"input2" "@volume_falloff.output"
+		"input3" "@mixer.output_volume"
+		"input4" "@globals.output_snd_gain_convar"
+		"input5" "@occlusion.output"
+		"input6" "1.0"
+		"input7" "1.0"
+		"input8" "1.0"
+		"input9" "1.0"
+		"input10" "1.0"
+		"input11" "1.0"
+		"input12" "1.0"
+	}
+
+	"mixer_trigger"
+	{
+		"operator" "soundmixer_set_trigger"
+		"input_trigger" "@volume_accumulate.output"
+		"input_mixgroups" "@mixer.output_mixgroups"	
+	}
+
+	///////////////////
+	// DSP
+	"dsp_emitter"
+	{
+		"operator" "math_float"
+		"apply"	      "set"
+		"input1" "1.0"	
+	}
+	"dsp_apply_mixer"
+	{
+		"operator" "math_float"
+		"apply" "mult"	
+		"input1" "@mixer.output_dsp"
+//			"input1" "1.0"
+		"input2" "@dsp_emitter.output"	
+	}
+
+///////////////////////////////////////////////////////////////
+// src2 todo :  needs channel
+// 		"dsp_distantDSP"
+// 		{
+// 			"operator" "calc_distant_dsp"
+// 			"input_distance"  "@distance_to_source.output"
+// 			"input_level"	  "@level_apply_mixer.output"
+// 		}
+	// temp hack
+	"dsp_distantDSP"
+	{
+		"operator" "math_float"
+		"apply" "mult"	
+		"input1" "1.0"
+		"input2" "1.0"	
+	}
+
+	"dsp_apply_distant"
+	{
+		"operator" "math_float"
+		"apply"    "mult"
+		"input1" "@dsp_distantDSP.output"
+		"input2" "@dsp_apply_mixer.output"			
+	}
+
+	/////////////////////
+	// SPEAKERS
+
+	// NOTE: uses player data, ie: SS, calculates all players and merges them
+	"speakers_spatialize"
+	{
+		"operator" "calc_spatialize_speakers"
+		"input_radius"  "300"
+		"input_distance"  "@distance_to_source.output"
+		"input_source_position"  "@get_entity_info.output_position"
+		"input_listener_position"  "@globals.output_listener_position"
+		"input_listener_left"  "@globals.output_listener_left"
+		"input_rear_stereo_scale" "1.0"
+	}
+
+	"speaker_volume_fan"
+	{
+		"operator" "util_float_to_speakers"
+		"input" "@volume_accumulate.output"
+	}
+
+	"speakers_apply_volume"
+	{
+		"operator"     "math_speakers"
+		"apply"	       "mult"
+		"input1"       "@speakers_spatialize.output"
+		"input2"	   "@speaker_volume_fan.output"
+	}
+
+	"speakers_limit"
+	{
+		"operator"      "math_speakers"
+		"apply"	       "mult"
+
+		"left_front"   "1.0"	
+		"right_front"  "1.0"	
+		"center"       "1.0"	
+		"lfe"          "1.0"	
+		"left_rear"    "1.0"
+		"right_rear"   "1.0"			
+//			"input1" 	   "[ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]"
+
+		"input2"	   "@speakers_apply_volume.output"
+	}
+
+	"start_vsnd"
+	{
+		"operator" "sms_start_vsnd"
+		"input_vsnd" "@get_vsnd.output"
+		"execute_once" "false"
+		"input_execute" "1.0"
+		"input_start" "@get_event_info.output_unstopped"
+		"input_speaker_volumes" "@speakers_limit.output"
+		"input_pitch" "@public.pitch"
+		"input_delay" "@public.delay"
+		"input_memory_type" "@public.memory_type"
+		"operator_variables"
+		{
+			"send_room_dsp"
+			{	
+				"data_type" "float"
+				"value" "@dsp_apply_distant.output"
+			}
+		}
+	}
+}
+
+"src1_3d"
+{
+	"public"
+	{
+		"operator" "util_null"
+		"operator_variables"
+		{
+			"start"
+			{
+				"data_type" "float"
+				"value" "1.0"	
+			}
+			"mixgroup"
+			{	
+				"data_type" "string64"
+				"value" "USEPATHMATCH"
+			}
+			"volume_min"
+			{	
+				"data_type" "float"
+				"value" "1.0"	
+			}
+			"volume_max"
+			{	
+				"data_type" "float"
+				"value" "1.0"	
+			}
+			"pitch_min"
+			{	
+				"data_type" "float"
+				"value" "1.0"	
+			}
+			"pitch_max"
+			{	
+				"data_type" "float"
+				"value" "1.0"	
+			}
+			"soundlevel_min"
+			{	
+				"data_type" "float"
+				"value" "65"	
+			}
+			"soundlevel_max"
+			{	
+				"data_type" "float"
+				"value" "75"	
+			}
+			"event_type"
+			{	
+				"data_type" "float"
+				"value" "0.0"	
+			}
+			"delay"
+			{	
+				"data_type" "float"
+				"value" "0.0"	
+			}
+			"distance_max"
+			{	
+				"data_type" "float"
+				"value" "-1.0"	
+			}
+			"position"
+			{	
+				"data_type" "float3"
+				"value" "[0.0, 0.0, 0.0]"
+			}
+			"voice_limiter_on"
+			{	
+				"data_type" "float"
+				"value" "1.0"
+			}
+			"vsnd_file_selections"
+			{	
+				"data_type" "uint64"
+				"value" "0"
+			}
+			"vsnd_files"
+			{	
+				"data_type" "vsnd"
+				"soundevent_data" "true"
+//				"reserve_array" "32"
+				"value"
+				{
+					"value0" "sounds/common/null.vsnd"
+				}
+			}
+			"memory_type"
+			{
+				"data_type" "float"
+				"value" "0"
+			}
+		}
+	}
+	// random ranges
+	"volume_random"
+	{
+		"operator" "math_random_float"
+		"execute_once" "true"
+		"input_min" "@public.volume_min"
+		"input_max" "@public.volume_max"
+	}
+	"pitch_random"
+	{
+		"operator" "math_random_float"
+		"execute_once" "true"
+		"input_min" "@public.pitch_min"
+		"input_max" "@public.pitch_max"
+	}
+	"soundlevel_random"
+	{
+		"operator" "math_random_float"
+		"execute_once" "true"
+		"input_min" "@public.soundlevel_min"
+		"input_max" "@public.soundlevel_max"
+	}
+
+	"import_src1_code_3d"
+	{
+		"operator" "sos_import_stack"
+		"import_stack" "src1_code_3d"
+
+		"operator_variables"
+		{
+			"start"
+			{
+				"value" "@public.start"	
+			}
+			"mixgroup"
+			{	
+				"value" "@public.mixgroup"
+			}
+			"volume"
+			{	
+				"value" "@volume_random.output"	
+			}
+			"pitch"
+			{	
+				"value" "@pitch_random.output"	
+			}
+			"soundlevel"
+			{	
+				"value" "@soundlevel_random.output"
+			}
+			"event_type"
+			{	
+				"value" "@public.event_type"	
+			}
+			"delay"
+			{	
+				"value" "@public.delay"	
+			}
+			"distance_max"
+			{	
+				"value" "@public.distance_max"	
+			}
+			"position"
+			{	
+				"value" "@public.position"
+			}
+			"voice_limiter_on"
+			{	
+				"value" "@public.voice_limiter_on"
+			}
+			"vsnd_file_selections"
+			{	
+				"value" "@public.vsnd_file_selections"
+			}
+			"vsnd_files"
+			{	
+				"value"
+				{
+					"value0" "@public.vsnd_files"
+				}
+			}
+			"memory_type"
+			{
+				"value" "@public.memory_type"
+			}
+		}
+	}
+}
+

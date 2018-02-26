@@ -1,0 +1,431 @@
+<!-- dmx encoding keyvalues2 3 format model 22 -->
+"DmElement"
+{
+	"id" "elementid" "4391d5ef-1e0c-48fd-9bc6-686236485d55"
+	"name" "string" "root"
+	"exportTags" "DmElement"
+	{
+		"id" "elementid" "52ca3e00-40a6-4184-9482-1b1bf775ccf6"
+		"name" "string" "exportTags"
+		"date" "string" "2012/12/28"
+		"time" "string" "17:45:39"
+		"user" "string" "jeff"
+		"machine" "string" "JEFF"
+		"app" "string" "modo"
+		"appVersion" "string" "601"
+		"appBuild" "string" "54144"
+		"os" "string" "Microsoft Windows 7 Service Pack 1"
+		"osVersion" "string" "6.1.7601 Service Pack 1"
+	}
+	
+	"makefile" "DmeDCCMakefile"
+	{
+		"id" "elementid" "cbdcd0b8-c72c-4ad5-b187-93ca6bd80e32"
+		"name" "string" "vsDmxIO"
+		"sources" "element_array" 
+		[
+			"DmeSourceDCCFile"
+			{
+				"id" "elementid" "ffc698e9-1838-4a1d-be3c-1715713fffd7"
+				"name" "string" "..\\modo\\spot_cone.lxo"
+				"rootDCCObjects" "string_array" 
+				[
+				]
+				"exportType" "int" "0"
+				"frameStart" "float" "0"
+				"frameEnd" "float" "0"
+				"frameIncrement" "float" "1"
+			}
+		]
+	}
+	
+	"model" "element" "8ca75aca-7f11-462b-b189-0858e628b63a"
+	"skeleton" "element" "8ca75aca-7f11-462b-b189-0858e628b63a"
+}
+
+"DmeModel"
+{
+	"id" "elementid" "8ca75aca-7f11-462b-b189-0858e628b63a"
+	"name" "string" "model"
+	"transform" "DmeTransform"
+	{
+		"id" "elementid" "fcf5a454-77da-4a9e-9945-7e643928a2ff"
+		"position" "vector3" "0 0 0"
+		"orientation" "quaternion" "0 0 0 1"
+	}
+	
+	"shape" "element" ""
+	"visible" "bool" "1"
+	"children" "element_array" 
+	[
+		"element" "d463b68e-36aa-4757-8460-681bfde8fc52"
+	]
+	"jointList" "element_array" 
+	[
+		"element" "d463b68e-36aa-4757-8460-681bfde8fc52"
+	]
+	"baseStates" "element_array" 
+	[
+		"DmeTransformList"
+		{
+			"id" "elementid" "79fab639-8b0f-4c58-b104-08581e0de357"
+			"name" "string" "bind"
+			"transforms" "element_array" 
+			[
+				"DmeTransform"
+				{
+					"id" "elementid" "f5e701bb-5f65-4967-a40f-7fa57d034b48"
+					"name" "string" "spot_cone_model"
+					"position" "vector3" "0 0 0"
+					"orientation" "quaternion" "0 0 0 1"
+				}
+			]
+		}
+	]
+	"axisSystem" "DmeAxisSystem"
+	{
+		"id" "elementid" "0185ac39-9124-475b-ad51-f01a8544c39a"
+		"name" "string" "axisSystem"
+		"upAxis" "int" "2"
+		"forwardParity" "int" "2"
+		"coordSys" "int" "0"
+	}
+	
+}
+
+"DmeDag"
+{
+	"id" "elementid" "d463b68e-36aa-4757-8460-681bfde8fc52"
+	"name" "string" "spot_cone_model"
+	"transform" "DmeTransform"
+	{
+		"id" "elementid" "40955d92-66f0-403f-867e-f103aa81f946"
+		"position" "vector3" "0 0 0"
+		"orientation" "quaternion" "0 0 0 1"
+	}
+	
+	"shape" "DmeMesh"
+	{
+		"id" "elementid" "cf253259-27ea-4f07-9504-9601d1c8a317"
+		"name" "string" "spot_cone_model"
+		"visible" "bool" "1"
+		"bindState" "element" ""
+		"currentState" "element" "cbc943a5-d864-43ad-92c9-024adef09f3a"
+		"baseStates" "element_array" 
+		[
+			"element" "cbc943a5-d864-43ad-92c9-024adef09f3a"
+		]
+		"deltaStates" "element_array" 
+		[
+		]
+		"faceSets" "element_array" 
+		[
+			"DmeFaceSet"
+			{
+				"id" "elementid" "bf9ea201-cd1b-4a34-b426-f622b31958da"
+				"name" "string" "FS0001"
+				"faces" "int_array" 
+				[
+					"0",
+					"1",
+					"2",
+					"-1",
+					"3",
+					"4",
+					"5",
+					"-1",
+					"6",
+					"7",
+					"8",
+					"-1",
+					"9",
+					"10",
+					"11",
+					"-1",
+					"12",
+					"13",
+					"14",
+					"-1",
+					"15",
+					"16",
+					"17",
+					"-1",
+					"18",
+					"19",
+					"20",
+					"-1",
+					"21",
+					"22",
+					"23",
+					"-1",
+					"24",
+					"25",
+					"26",
+					"-1",
+					"27",
+					"28",
+					"29",
+					"-1",
+					"30",
+					"31",
+					"32",
+					"-1",
+					"33",
+					"34",
+					"35",
+					"-1",
+					"36",
+					"37",
+					"38",
+					"-1",
+					"39",
+					"40",
+					"41",
+					"-1",
+					"42",
+					"43",
+					"44",
+					"-1",
+					"45",
+					"46",
+					"47",
+					"-1"
+				]
+				"material" "DmeMaterial"
+				{
+					"id" "elementid" "90bcb733-be11-487d-a251-019c1804da85"
+					"name" "string" "models/editor/spot_cone"
+					"mtlName" "string" "materials\\models\\editor\\spot_cone"
+				}
+				
+			}
+		]
+		"deltaStateWeights" "vector2_array" 
+		[
+		]
+		"deltaStateWeightsLagged" "vector2_array" 
+		[
+		]
+	}
+	
+	"visible" "bool" "1"
+	"children" "element_array" 
+	[
+	]
+}
+
+"DmeVertexData"
+{
+	"id" "elementid" "cbc943a5-d864-43ad-92c9-024adef09f3a"
+	"name" "string" "bind"
+	"vertexFormat" "string_array" 
+	[
+		"position$0",
+		"normal$0",
+		"texcoord$0"
+	]
+	"jointCount" "int" "0"
+	"flipVCoordinates" "bool" "0"
+	"position$0" "vector3_array" 
+	[
+		"0.023 0.1111000031 6.3668999672",
+		"-5.7182998657 5.852399826 17.7849006653",
+		"-8.0964002609 0.1111000031 17.7849006653",
+		"0.023 8.2305002213 17.7849006653",
+		"5.7642998695 5.852399826 17.7849006653",
+		"8.1423997879 0.1111000031 17.7849006653",
+		"5.7642998695 -5.6301999092 17.7849006653",
+		"0.023 -8.0083999634 17.7849006653",
+		"-5.7182998657 -5.6301999092 17.7849006653",
+		"0.023 0.1111000031 0.0746999979"
+	]
+	"position$0Indices" "int_array" 
+	[
+		"0",
+		"1",
+		"2",
+		"0",
+		"3",
+		"1",
+		"0",
+		"4",
+		"3",
+		"0",
+		"5",
+		"4",
+		"0",
+		"6",
+		"5",
+		"0",
+		"7",
+		"6",
+		"0",
+		"8",
+		"7",
+		"0",
+		"2",
+		"8",
+		"2",
+		"1",
+		"9",
+		"1",
+		"3",
+		"9",
+		"3",
+		"4",
+		"9",
+		"4",
+		"5",
+		"9",
+		"5",
+		"6",
+		"9",
+		"6",
+		"7",
+		"9",
+		"7",
+		"8",
+		"9",
+		"8",
+		"2",
+		"9"
+	]
+	"normal$0" "vector3_array" 
+	[
+		"0.9999998808 0 0",
+		"0.5794814825 -0.5762816072 -0.5762816072",
+		"0.5794868469 0 -0.814981401",
+		"0.5794868469 -0.814981401 0",
+		"0.5794814825 -0.5762816072 0.5762816072",
+		"0.5794868469 0 0.814981401",
+		"0.5794814825 0.5762816072 0.5762816072",
+		"0.5794868469 0.814981401 0",
+		"0.5794814825 0.5762816072 -0.5762816072",
+		"-0.4167166352 0 0.9090362787",
+		"-0.4166952372 0.6427927017 0.6427927017",
+		"-0.9999998808 0 0",
+		"-0.4167166352 0.9090362787 0",
+		"-0.4166952372 0.6427927017 -0.6427927017",
+		"-0.4167166352 0 -0.9090362787",
+		"-0.4166952372 -0.6427927017 -0.6427927017",
+		"-0.4167166352 -0.9090362787 0",
+		"-0.4166952372 -0.6427927017 0.6427927017"
+	]
+	"normal$0Indices" "int_array" 
+	[
+		"0",
+		"1",
+		"2",
+		"0",
+		"3",
+		"1",
+		"0",
+		"4",
+		"3",
+		"0",
+		"5",
+		"4",
+		"0",
+		"6",
+		"5",
+		"0",
+		"7",
+		"6",
+		"0",
+		"8",
+		"7",
+		"0",
+		"2",
+		"8",
+		"9",
+		"10",
+		"11",
+		"10",
+		"12",
+		"11",
+		"12",
+		"13",
+		"11",
+		"13",
+		"14",
+		"11",
+		"14",
+		"15",
+		"11",
+		"15",
+		"16",
+		"11",
+		"16",
+		"17",
+		"11",
+		"17",
+		"9",
+		"11"
+	]
+	"texcoord$0" "vector2_array" 
+	[
+		"0.5 0.0005000234",
+		"0.875 0.9994999766",
+		"0.75 0.9994999766",
+		"1 0.9994999766",
+		"0.125 0.9994999766",
+		"0 0.9994999766",
+		"0.25 0.9994999766",
+		"0.375 0.9994999766",
+		"0.5 0.9994999766",
+		"0.625 0.9994999766",
+		"-0.125 0.9994999766"
+	]
+	"texcoord$0Indices" "int_array" 
+	[
+		"0",
+		"1",
+		"2",
+		"0",
+		"3",
+		"1",
+		"0",
+		"4",
+		"5",
+		"0",
+		"6",
+		"4",
+		"0",
+		"7",
+		"6",
+		"0",
+		"8",
+		"7",
+		"0",
+		"9",
+		"8",
+		"0",
+		"2",
+		"9",
+		"2",
+		"1",
+		"0",
+		"10",
+		"5",
+		"0",
+		"5",
+		"4",
+		"0",
+		"4",
+		"6",
+		"0",
+		"6",
+		"7",
+		"0",
+		"7",
+		"8",
+		"0",
+		"8",
+		"9",
+		"0",
+		"9",
+		"2",
+		"0"
+	]
+}
+

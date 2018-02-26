@@ -1,0 +1,24 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "tools_textured_unlit.vfx"
+
+	//---- Translucent ----
+	F_TRANSLUCENT 1
+
+	//---- Translucent ----
+	g_flOpacityScale "1.000"
+
+	Attributes
+	{
+		mapbuilder.nodraw "1"
+		mapbuilder.nonsolid "1"
+		tools.toolsmaterial "1"
+	}
+
+	DynamicParams
+	{
+		g_flOpacityScale "OpacityScale"
+	}
+}

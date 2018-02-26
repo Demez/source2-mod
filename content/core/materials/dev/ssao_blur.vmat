@@ -1,0 +1,6 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "ssao_bilateral_blur.vfx"
+}

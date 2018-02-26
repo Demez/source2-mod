@@ -1,0 +1,245 @@
+<!-- schema text {7e125a45-3d83-4043-b292-9e24f8ef27b4} generic {198980d8-3a93-4919-b4c6-dd1fb07a3a4b} -->
+CHelpData CHelpData_0
+{
+	CHelpEntry[] m_Entries = 
+	[
+		CHelpEntry
+		{
+			string m_Id = "Element.CVpropDataList"
+			string m_FriendlyName = ""
+			string m_TooltipOverride = ""
+			string m_HelpText = "Edit the data added to the model\'s prop data here. These are the same fields that existed in Source1\'s keyvalues block. "
+		},
+		CHelpEntry
+		{
+			string m_Id = "Attribute.CVpropDataList.m_nBreakableType"
+			string m_FriendlyName = ""
+			string m_TooltipOverride = ""
+			string m_HelpText = "The type of pieces the model will shatter into. "
+		},
+		CHelpEntry
+		{
+			string m_Id = "Attribute.CVpropDataList.m_nBreakableCount"
+			string m_FriendlyName = ""
+			string m_TooltipOverride = ""
+			string m_HelpText = "How many pieces the model shatters into."
+		},
+		CHelpEntry
+		{
+			string m_Id = "Attribute.CVpropDataList.m_nBreakableSkin"
+			string m_FriendlyName = ""
+			string m_TooltipOverride = ""
+			string m_HelpText = "Which skin the break piece uses"
+		},
+		CHelpEntry
+		{
+			string m_Id = "Attribute.CVpropDataList.m_additional"
+			string m_FriendlyName = ""
+			string m_TooltipOverride = ""
+			string m_HelpText = "Add additional keyvalues here"
+		},
+		CHelpEntry
+		{
+			string m_Id = "Attribute.CVpropDataList.m_base"
+			string m_FriendlyName = ""
+			string m_TooltipOverride = "Specify a base propdata class to derive from"
+			string m_HelpText = "Specify a base propdata class to derive from (base types can be found in propdata.txt)\n\n<a href=\'https://intranet.valvesoftware.com/index.php/Prop_Data_(Left_4_Dead)\'>Left4 Dead Prop Data</a>"
+		},
+		CHelpEntry
+		{
+			string m_Id = "Attribute.CVpropDataList.m_bBlockLOS"
+			string m_FriendlyName = "Block LOS"
+			string m_TooltipOverride = ""
+			string m_HelpText = "Override whether this prop should block NPC\'s Line-Of-Sight."
+		},
+		CHelpEntry
+		{
+			string m_Id = "Attribute.CVpropDataList.m_bAIwalkable"
+			string m_FriendlyName = ""
+			string m_TooltipOverride = ""
+			string m_HelpText = "Override whether AI should consider this prop as walkable on."
+		},
+		CHelpEntry
+		{
+			string m_Id = "Attribute.CVpropDataList.m_bAllowStatic"
+			string m_FriendlyName = ""
+			string m_TooltipOverride = ""
+			string m_HelpText = " Allow this prop to be static as well as physically simulated."
+		},
+		CHelpEntry
+		{
+			string m_Id = "Attribute.CVpropDataList.m_flDmgBullets"
+			string m_FriendlyName = ""
+			string m_TooltipOverride = "Mod damage done by bullets to this prop."
+			string m_HelpText = "Mod damage done by bullets to this prop.\n\nNOTE: Use damage modifiers to reflect differences between the amount of\ndamage that an object takes from different damage types. Don\'t\nuse them to reflect overall damage strength. i.e. Stone is resilient\nto everything. To reflect this, increase the health of all stone\nobjects, don\'t set the damage modifiers lower."
+		},
+		CHelpEntry
+		{
+			string m_Id = "Attribute.CVpropDataList.m_flDmgClub"
+			string m_FriendlyName = ""
+			string m_TooltipOverride = "Mod damage done by clubs to this prop."
+			string m_HelpText = "Mod damage done by clubs to this prop.\n\nNOTE: Use damage modifiers to reflect differences between the amount ofdamage that use them to reflect overall damage strength. i.e. Stone is resilient\nto everything. To reflect this, increase the health of all stone\nobjects, don\'t set the damage modifiers lower."
+		},
+		CHelpEntry
+		{
+			string m_Id = "Attribute.CVpropDataList.m_flDmgExplosive"
+			string m_FriendlyName = "Mod damage done by explosives to this prop."
+			string m_TooltipOverride = ""
+			string m_HelpText = "Mod damage done by explosives to this prop.\n\nNOTE: Use damage modifiers to reflect differences between the amount ofdamage that use them to reflect overall damage strength. i.e. Stone is resilient\nto everything. To reflect this, increase the health of all stone\nobjects, don\'t set the damage modifiers lower."
+		},
+		CHelpEntry
+		{
+			string m_Id = "Attribute.CVpropDataList.m_flDmgFire"
+			string m_FriendlyName = ""
+			string m_TooltipOverride = "Mod damage done by fire to this prop."
+			string m_HelpText = "Mod damage done by fire to this prop.\n\nNOTE: Use damage modifiers to reflect differences between the amount of\ndamage that an object takes from different damage types. Don\'t\nuse them to reflect overall damage strength. i.e. Stone is resilient\nto everything. To reflect this, increase the health of all stone\nobjects, don\'t set the damage modifiers lower."
+		},
+		CHelpEntry
+		{
+			string m_Id = "Attribute.CVpropDataList.m_damageTable"
+			string m_FriendlyName = ""
+			string m_TooltipOverride = ""
+			string m_HelpText = "Specify a custom physics impact damage table for this prop."
+		},
+		CHelpEntry
+		{
+			string m_Id = "Attribute.CVpropDataList.m_nExplosionType"
+			string m_FriendlyName = ""
+			string m_TooltipOverride = "(molotov/grenade/fireworks/default)"
+			string m_HelpText = "If default, explosive_damage/explosive_radius are used as usual"
+		},
+		CHelpEntry
+		{
+			string m_Id = "Attribute.CVpropDataList.m_flExplosiveDamage"
+			string m_FriendlyName = ""
+			string m_TooltipOverride = "Explosive damage done by this prop."
+			string m_HelpText = "Explosive damage done by this prop.\n\nRadius of the explosion caused by this prop when it breaks.//\t\tNOTE: If radius and damage are specified for a prop, then the prop will automatically create an explosion with the specified values when the prop is broken."
+		},
+		CHelpEntry
+		{
+			string m_Id = "Attribute.CVpropDataList.m_flExplosiveRadius"
+			string m_FriendlyName = ""
+			string m_TooltipOverride = "Radius of the explosion caused by this prop when it breaks."
+			string m_HelpText = "Radius of the explosion caused by this prop when it breaks.//\t\tNOTE: If radius and damage are specified for a prop, then the prop will automatically create an explosion with the specified values when the prop is broken."
+		},
+		CHelpEntry
+		{
+			string m_Id = "Attribute.CVpropDataList.m_nMultiplayerBreak"
+			string m_FriendlyName = ""
+			string m_TooltipOverride = "Set multiplayer breakable spawn behavior (default/server/client/both)"
+			string m_HelpText = "Set multiplayer breakable spawn behavior (default/server/client/both)<br>\n\nNOTE: if multiplayer_break is \"both\", each piece is spawned by the default dll unless its \"break\" section has a \"multiplayer_break\" key with a value of \"client\" or \"server\".<br>\n\nNOTE: if specifying non-default behavior, the top-level breakable and the breakable pieces need to \"agree\".<br>"
+		},
+		CHelpEntry
+		{
+			string m_Id = "Attribute.CVpropDataList.m_nHealth"
+			string m_FriendlyName = ""
+			string m_TooltipOverride = ""
+			string m_HelpText = " Amount of damage this prop should take before breaking."
+		},
+		CHelpEntry
+		{
+			string m_Id = "Attribute.CVpropDataList.m_flExplosiveDelay"
+			string m_FriendlyName = ""
+			string m_TooltipOverride = "Time before explosion occurs"
+			string m_HelpText = ""
+		},
+		CHelpEntry
+		{
+			string m_Id = "Attribute.CVpropDataList.m_bGlow"
+			string m_FriendlyName = ""
+			string m_TooltipOverride = "Does the prop get a l4d style glow"
+			string m_HelpText = ""
+		},
+		CHelpEntry
+		{
+			string m_Id = "Attribute.CVpropDataList.m_nPhysicsMode"
+			string m_FriendlyName = ""
+			string m_TooltipOverride = ""
+			string m_HelpText = "Set multiplayer physics behaviour (1=full, 2=non-solid,3=clientside)"
+		},
+		CHelpEntry
+		{
+			string m_Id = "Attribute.CVpropDataList.m_physgunInteractions"
+			string m_FriendlyName = ""
+			string m_TooltipOverride = ""
+			string m_HelpText = "Set the physgun_interaction keyvalues here"
+		},
+		CHelpEntry
+		{
+			string m_Id = "Element.CVhitBoxSetList"
+			string m_FriendlyName = ""
+			string m_TooltipOverride = "HitboxSetList"
+			string m_HelpText = "Hitboxsetlists contain a list of hitbox sets.<br>\nTo add a new set, right click in the item and select <b>\"Add Hitbox Set\"</b>"
+		},
+		CHelpEntry
+		{
+			string m_Id = "Element.CVhitBoxSet"
+			string m_FriendlyName = ""
+			string m_TooltipOverride = "Hitbox set"
+			string m_HelpText = "Hitbox sets contain a list of hitboxes.<br>\nRight click the item to get these menu options:<br>\n<b>Auto Populate Set</b>: brings up a menu that allows you to select what joints get a hitbox<br>\nHitboxes are automatically sized based on the skinned vertices.<br>\n"
+		},
+		CHelpEntry
+		{
+			string m_Id = "Attribute.CAuthPhysBody.m_pBreakablePartData"
+			string m_FriendlyName = "Breakable Part Override"
+			string m_TooltipOverride = "Per-part breakable attributes override"
+			string m_HelpText = "Provides per-body part breakable attributes, e.g. fadeout time can be set to be shorter for smaller insignificant parts of a breakable than for bigger parts."
+		},
+		CHelpEntry
+		{
+			string m_Id = "Element.CVModel"
+			string m_FriendlyName = "VMDL"
+			string m_TooltipOverride = ""
+			string m_HelpText = "This is the high level content side file that is compliled to generate a game side model ( .vmdl_c ). All data needed for a model is either directly part of or referenced by the vmdl."
+		},
+		CHelpEntry
+		{
+			string m_Id = "Element.CVmeshList"
+			string m_FriendlyName = "Mesh List"
+			string m_TooltipOverride = ""
+			string m_HelpText = "This is a list of meshes that the model contains. Meshes in this list can be referenced by mesh groups, and LOD ( level of detail ) groups."
+		},
+		CHelpEntry
+		{
+			string m_Id = "Element.CVmesh"
+			string m_FriendlyName = "VMesh"
+			string m_TooltipOverride = ""
+			string m_HelpText = "This is the data that describes a mesh file. Valid input files are .dmx, .fbx, .obj, and .smd."
+		},
+		CHelpEntry
+		{
+			string m_Id = "Attribute.CVmesh.m_meshName"
+			string m_FriendlyName = "Mesh Name"
+			string m_TooltipOverride = ""
+			string m_HelpText = "The name of the mesh. "
+		},
+		CHelpEntry
+		{
+			string m_Id = "Attribute.CVmesh.m_meshFile"
+			string m_FriendlyName = "Mesh File"
+			string m_TooltipOverride = ""
+			string m_HelpText = "The content side file that is compiled. Valid file types are .dmx, .fbx, .smd, and .obj"
+		},
+		CHelpEntry
+		{
+			string m_Id = "Attribute.CVmesh.m_materialSearchPath"
+			string m_FriendlyName = "Material Search Path"
+			string m_TooltipOverride = ""
+			string m_HelpText = "Optional mod relative path that adds an additional search path where the compiler looks for materials. For example entering \"materials/environments/rocks/\" will add that as a possible location for materials, in addition to looking in the location  contained in the input mesh file."
+		},
+		CHelpEntry
+		{
+			string m_Id = "Attribute.CVmesh.m_bSkinParentedObjects"
+			string m_FriendlyName = "Skin Parented Objects"
+			string m_TooltipOverride = ""
+			string m_HelpText = "Enabling this will force a hierarchy of objects to be treated as a joint based skeleton. For example a chain of parented cubes will show up as a series of joints with the cubes skinned to each joint. This is on by default."
+		},
+		CHelpEntry
+		{
+			string m_Id = "Attribute.CVmesh.m_bExpensiveTangents"
+			string m_FriendlyName = "Use Expensive Tangents"
+			string m_TooltipOverride = ""
+			string m_HelpText = "Enabling this will use uncompressed tangents. This will result in better looking results in some cases, but will also increase the size of the compiled model."
+		}
+	]
+}

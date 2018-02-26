@@ -1,0 +1,34 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "generic.vfx"
+
+	//---- Lighting ----
+	F_UNLIT 1
+
+	//---- Translucent ----
+	F_TRANSLUCENT 1
+
+	//---- Color ----
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	TextureColor "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Lighting ----
+	g_vGlossinessRange "[0.000 1.000]"
+	TextureGlossiness "[0.501961 0.501961 0.000000 0.000000]"
+
+	//---- Normal Map ----
+	TextureNormal "[0.501961 0.501961 1.000000 0.000000]"
+
+	//---- Translucent ----
+	g_flOpacityScale "1.000"
+	TextureTranslucency "materials/tools/static_overlay_trans.psd"
+
+	Attributes
+	{
+		tools.toolsmaterial "1"
+	}
+}

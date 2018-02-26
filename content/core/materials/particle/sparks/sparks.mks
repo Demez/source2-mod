@@ -1,0 +1,33 @@
+sequence 0
+frame spark01.tga 1
+
+sequence 1
+frame spark02.tga 1
+
+sequence 2
+frame spark04.tga 1
+
+sequence 3
+frame spark05.tga 1
+
+sequence 4
+frame spark06.tga 1
+
+sequence 5
+frame spark03.tga 1
+
+sequence 6
+frame spark01.tga 1
+frame spark02.tga 1
+
+sequence 7
+frame spark04.tga 1
+frame spark05.tga 1
+
+sequence 8
+frame spark05.tga 1
+frame spark02.tga 1
+
+sequence 9
+frame spark06.tga 1
+frame spark02.tga 1

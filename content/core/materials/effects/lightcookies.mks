@@ -1,0 +1,21 @@
+
+// Default white light cookie
+SEQUENCE 0
+name default
+loop
+
+frame ..\dev\primary_white_color.tga 1
+
+// Flashlight cookie from l4d
+SEQUENCE 1
+name l4dflashlight
+loop
+
+frame flashlight001.tga 1
+
+// Flashlight cookie from l4d
+SEQUENCE 2
+name l4dmuzzleflash
+loop
+
+frame muzzleflash_light.tga 1

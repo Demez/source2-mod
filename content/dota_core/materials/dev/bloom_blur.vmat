@@ -1,0 +1,9 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "blur.vfx"
+
+	//---- Gaussian Kernel ----
+	F_GAUSSIAN_KERNEL 2 // 9 pixels wide
+}

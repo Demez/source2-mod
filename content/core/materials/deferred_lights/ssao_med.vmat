@@ -1,0 +1,12 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "ssao.vfx"
+
+	F_SSAO_QUALITY 1 // Medium (16 Samples)
+
+	g_flSampleRadius "8.000"
+	g_flSSAOBias "0.010"
+	TextureRandom "materials/deferred_lights/ssao_random.tga"
+}
