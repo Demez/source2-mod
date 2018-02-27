@@ -81,7 +81,7 @@
 	{
 		"HasModAppSystems" "1"
 		"Capable64Bit" "1"
-		"UsesScaleform" "1"
+		"UsesScaleform" "0"
 		"HasGameUI" "1" // dota uses gameui
 		"GameUIFromClient" "1"  // AND that gameui comes from client.dll
 		"URLName" "dota2"

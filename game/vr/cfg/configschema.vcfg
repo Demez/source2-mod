@@ -1,0 +1,11 @@
+"schema"
+{	
+	"machine"
+	{		
+		"player0_using_joystick"
+		{
+			"type"			"int32"
+			"defaultValue"	"0"
+		}
+	}
+}

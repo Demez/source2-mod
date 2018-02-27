@@ -1,0 +1,8 @@
+soundscaples_manifest
+{
+	// List additional soundscape files here
+
+		"file"		"scripts/soundscapes_aperture.txt"
+		
+}
+
