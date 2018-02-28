@@ -1,0 +1,7 @@
+"config"
+{
+	"convars"
+	{
+		"hud_fastswitch"		"1"
+	}
+}

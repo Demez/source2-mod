@@ -1,1 +1,1 @@
-"bin/win64/vr.exe" -novr -gl
+"game/bin/win64/vr.exe" -novr -gl
