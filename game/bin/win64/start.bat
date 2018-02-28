@@ -1,1 +1,1 @@
-start vr -novr -dev -720 -allowdebug -nohackstartup
+start vr -novr -dev -720 -allowdebug
