@@ -86,6 +86,7 @@
 	{
 		"Engine"	"Source 2"
 		"ToolsDir"	"../sdktools"	// NOTE: Default Tools path. This is relative to the mod path.
+		"ToolsProductName" "Perf Test Tools"
 	}
 	
 	Hammer
