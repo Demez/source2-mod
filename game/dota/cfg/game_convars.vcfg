@@ -1,0 +1,7 @@
+"config"
+{
+	"convars"
+	{
+		"cl_updaterate"		"30"
+	}
+}

@@ -1,0 +1,32 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "generic.vfx"
+
+	//---- Specular ----
+	F_SPECULAR 1
+	F_SPECULAR_CUBE_MAP 1 // In-game Cube Map
+
+	//---- Color ----
+	g_vColorTint "[0.517647 0.607843 0.823529 0.000000]"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	TextureColor "materials/dev/black_color.tga"
+
+	//---- Cube Map ----
+	g_flCubeMapBlurAmount "1.000"
+
+	//---- Lighting ----
+	g_vGlossinessRange "[1.000 1.000]"
+	g_vMetalnessRange "[0.000 1.000]"
+	g_vReflectanceRange "[1.000 1.000]"
+	TextureGlossiness "[0.380392 0.380392 0.000000 0.000000]"
+	TextureMetalness "materials/default/default_metal.tga"
+	TextureReflectance "materials/default/default_refl.tga"
+
+	//---- Normal Map ----
+	g_flBumpStrength "1.000"
+	g_vNormalTexCoordScale "[1.000 1.000]"
+	TextureNormal "materials/default/default_normal.tga"
+}

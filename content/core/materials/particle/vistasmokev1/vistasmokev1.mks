@@ -1,0 +1,495 @@
+packmode rgb+a
+
+
+sequence-a 0
+LOOP
+frame reframedSmokeSprites170_0033.tga 1 // frame  reframedSmokeSprites170_0034.tga 1
+frame reframedSmokeSprites170_0035.tga 1 // frame  reframedSmokeSprites170_0036.tga 1
+frame reframedSmokeSprites170_0037.tga 1 // frame  reframedSmokeSprites170_0038.tga 1
+frame reframedSmokeSprites170_0039.tga 1 // frame  reframedSmokeSprites170_0040.tga 1
+frame reframedSmokeSprites170_0041.tga 1 // frame  reframedSmokeSprites170_0042.tga 1
+frame reframedSmokeSprites170_0043.tga 1 // frame  reframedSmokeSprites170_0044.tga 1
+frame reframedSmokeSprites170_0045.tga 1 // frame  reframedSmokeSprites170_0046.tga 1
+frame reframedSmokeSprites170_0047.tga 1 // frame  reframedSmokeSprites170_0048.tga 1
+frame reframedSmokeSprites170_0049.tga 1 // frame  reframedSmokeSprites170_0050.tga 1
+frame reframedSmokeSprites170_0051.tga 1 // frame  reframedSmokeSprites170_0052.tga 1
+frame reframedSmokeSprites170_0053.tga 1 // frame  reframedSmokeSprites170_0054.tga 1
+frame reframedSmokeSprites170_0055.tga 1 // frame  reframedSmokeSprites170_0056.tga 1
+frame reframedSmokeSprites170_0057.tga 1 // frame  reframedSmokeSprites170_0058.tga 1
+frame reframedSmokeSprites170_0059.tga 1 // frame  reframedSmokeSprites170_0060.tga 1
+frame reframedSmokeSprites170_0061.tga 1 // frame  reframedSmokeSprites170_0062.tga 1
+frame reframedSmokeSprites170_0063.tga 1 // frame  reframedSmokeSprites170_0064.tga 1
+sequence-a 1
+LOOP
+frame reframedSmokeSprites170_0065.tga 1 // frame  reframedSmokeSprites170_0066.tga 1
+frame reframedSmokeSprites170_0067.tga 1 // frame  reframedSmokeSprites170_0068.tga 1
+frame reframedSmokeSprites170_0069.tga 1 // frame  reframedSmokeSprites170_0070.tga 1
+frame reframedSmokeSprites170_0071.tga 1 // frame  reframedSmokeSprites170_0072.tga 1
+frame reframedSmokeSprites170_0073.tga 1 // frame  reframedSmokeSprites170_0074.tga 1
+frame reframedSmokeSprites170_0075.tga 1 // frame  reframedSmokeSprites170_0076.tga 1
+frame reframedSmokeSprites170_0077.tga 1 // frame  reframedSmokeSprites170_0078.tga 1
+frame reframedSmokeSprites170_0079.tga 1 // frame  reframedSmokeSprites170_0080.tga 1
+frame reframedSmokeSprites170_0081.tga 1 // frame  reframedSmokeSprites170_0082.tga 1
+frame reframedSmokeSprites170_0083.tga 1 // frame  reframedSmokeSprites170_0084.tga 1
+frame reframedSmokeSprites170_0085.tga 1 // frame  reframedSmokeSprites170_0086.tga 1
+frame reframedSmokeSprites170_0087.tga 1 // frame  reframedSmokeSprites170_0088.tga 1
+frame reframedSmokeSprites170_0089.tga 1 // frame  reframedSmokeSprites170_0090.tga 1
+frame reframedSmokeSprites170_0091.tga 1 // frame  reframedSmokeSprites170_0092.tga 1
+frame reframedSmokeSprites170_0093.tga 1 // frame  reframedSmokeSprites170_0094.tga 1
+frame reframedSmokeSprites170_0095.tga 1 // frame  reframedSmokeSprites170_0096.tga 1
+
+// duplicate of 0 and 1 for backwards compatibility - original 0 removed for mem. optimizations
+sequence-a 2
+LOOP
+frame reframedSmokeSprites170_0033.tga 1 // frame  reframedSmokeSprites170_0034.tga 1
+frame reframedSmokeSprites170_0035.tga 1 // frame  reframedSmokeSprites170_0036.tga 1
+frame reframedSmokeSprites170_0037.tga 1 // frame  reframedSmokeSprites170_0038.tga 1
+frame reframedSmokeSprites170_0039.tga 1 // frame  reframedSmokeSprites170_0040.tga 1
+frame reframedSmokeSprites170_0041.tga 1 // frame  reframedSmokeSprites170_0042.tga 1
+frame reframedSmokeSprites170_0043.tga 1 // frame  reframedSmokeSprites170_0044.tga 1
+frame reframedSmokeSprites170_0045.tga 1 // frame  reframedSmokeSprites170_0046.tga 1
+frame reframedSmokeSprites170_0047.tga 1 // frame  reframedSmokeSprites170_0048.tga 1
+frame reframedSmokeSprites170_0049.tga 1 // frame  reframedSmokeSprites170_0050.tga 1
+frame reframedSmokeSprites170_0051.tga 1 // frame  reframedSmokeSprites170_0052.tga 1
+frame reframedSmokeSprites170_0053.tga 1 // frame  reframedSmokeSprites170_0054.tga 1
+frame reframedSmokeSprites170_0055.tga 1 // frame  reframedSmokeSprites170_0056.tga 1
+frame reframedSmokeSprites170_0057.tga 1 // frame  reframedSmokeSprites170_0058.tga 1
+frame reframedSmokeSprites170_0059.tga 1 // frame  reframedSmokeSprites170_0060.tga 1
+frame reframedSmokeSprites170_0061.tga 1 // frame  reframedSmokeSprites170_0062.tga 1
+frame reframedSmokeSprites170_0063.tga 1 // frame  reframedSmokeSprites170_0064.tga 1
+
+sequence-a 3
+LOOP
+frame reframedSmokeSprites170_0065.tga 1 // frame  reframedSmokeSprites170_0066.tga 1
+frame reframedSmokeSprites170_0067.tga 1 // frame  reframedSmokeSprites170_0068.tga 1
+frame reframedSmokeSprites170_0069.tga 1 // frame  reframedSmokeSprites170_0070.tga 1
+frame reframedSmokeSprites170_0071.tga 1 // frame  reframedSmokeSprites170_0072.tga 1
+frame reframedSmokeSprites170_0073.tga 1 // frame  reframedSmokeSprites170_0074.tga 1
+frame reframedSmokeSprites170_0075.tga 1 // frame  reframedSmokeSprites170_0076.tga 1
+frame reframedSmokeSprites170_0077.tga 1 // frame  reframedSmokeSprites170_0078.tga 1
+frame reframedSmokeSprites170_0079.tga 1 // frame  reframedSmokeSprites170_0080.tga 1
+frame reframedSmokeSprites170_0081.tga 1 // frame  reframedSmokeSprites170_0082.tga 1
+frame reframedSmokeSprites170_0083.tga 1 // frame  reframedSmokeSprites170_0084.tga 1
+frame reframedSmokeSprites170_0085.tga 1 // frame  reframedSmokeSprites170_0086.tga 1
+frame reframedSmokeSprites170_0087.tga 1 // frame  reframedSmokeSprites170_0088.tga 1
+frame reframedSmokeSprites170_0089.tga 1 // frame  reframedSmokeSprites170_0090.tga 1
+frame reframedSmokeSprites170_0091.tga 1 // frame  reframedSmokeSprites170_0092.tga 1
+frame reframedSmokeSprites170_0093.tga 1 // frame  reframedSmokeSprites170_0094.tga 1
+frame reframedSmokeSprites170_0095.tga 1 // frame  reframedSmokeSprites170_0096.tga 1
+
+
+sequence-rgb 4
+LOOP
+frame smokeTex0001_341.tga 1
+frame smokeTex0002_341.tga 1
+frame smokeTex0003_341.tga 1
+frame smokeTex0004_341.tga 1
+frame smokeTex0007_341.tga 1
+frame smokeTex0006_341.tga 1
+
+sequence-rgb 5
+LOOP
+frame smokeTex0003_341.tga 1
+frame smokeTex0001_341.tga 1
+frame smokeTex0004_341.tga 1
+frame smokeTex0002_341.tga 1
+frame smokeTex0006_341.tga 1
+frame smokeTex0007_341.tga 1
+
+sequence-rgb 6
+LOOP
+frame smokeTex0006_341.tga 1
+frame smokeTex0002_341.tga 1
+frame smokeTex0004_341.tga 1
+frame smokeTex0007_341.tga 1
+frame smokeTex0003_341.tga 1
+frame smokeTex0001_341.tga 1
+
+sequence-rgb 7
+LOOP
+frame smokeTex0007_341.tga 1
+frame smokeTex0004_341.tga 1
+frame smokeTex0001_341.tga 1
+frame smokeTex0003_341.tga 1
+frame smokeTex0006_341.tga 1
+frame smokeTex0002_341.tga 1
+
+sequence-rgb 8
+LOOP
+frame smokeTex0006_341.tga 1
+frame smokeTex0007_341.tga 1
+frame smokeTex0004_341.tga 1
+frame smokeTex0003_341.tga 1
+frame smokeTex0002_341.tga 1
+frame smokeTex0001_341.tga 1
+
+sequence-rgb 9
+LOOP
+frame smokeTex0002_341.tga 1
+frame smokeTex0004_341.tga 1
+frame smokeTex0001_341.tga 1
+frame smokeTex0006_341.tga 1
+frame smokeTex0003_341.tga 1
+frame smokeTex0007_341.tga 1
+
+// Out of order for proper texture packing
+sequence-rgb 20
+LOOP
+frame vista_fire_rgb_21_204.tga 1
+frame vista_fire_rgb_22_204.tga 1
+frame vista_fire_rgb_23_204.tga 1
+frame vista_fire_rgb_24_204.tga 1
+frame vista_fire_rgb_25_204.tga 1
+
+sequence-rgb 21
+LOOP
+frame vista_fire_rgb_25_204.tga 1
+frame vista_fire_rgb_24_204.tga 1
+frame vista_fire_rgb_23_204.tga 1
+frame vista_fire_rgb_22_204.tga 1
+frame vista_fire_rgb_21_204.tga 1
+
+sequence-rgb 22
+LOOP
+frame vista_fire_rgb_22_204.tga 1
+frame vista_fire_rgb_24_204.tga 1
+frame vista_fire_rgb_21_204.tga 1
+frame vista_fire_rgb_23_204.tga 1
+frame vista_fire_rgb_25_204.tga 1
+
+sequence-rgb 23
+LOOP
+frame vista_fire_rgb_21_204.tga 1
+frame vista_fire_rgb_23_204.tga 1
+frame vista_fire_rgb_25_204.tga 1
+frame vista_fire_rgb_22_204.tga 1
+frame vista_fire_rgb_24_204.tga 1
+
+
+sequence-rgb 24
+LOOP
+frame vista_fire_rgb_01_128.tga 1
+frame vista_fire_rgb_02_128.tga 1
+frame vista_fire_rgb_03_128.tga 1
+
+sequence-rgb 25
+LOOP
+frame vista_fire_rgb_03_128.tga 1
+frame vista_fire_rgb_02_128.tga 1
+frame vista_fire_rgb_01_128.tga 1
+
+sequence-rgb 26
+LOOP
+frame vista_fire_rgb_02_128.tga 1
+frame vista_fire_rgb_01_128.tga 1
+frame vista_fire_rgb_03_128.tga 1
+
+sequence-rgb 10
+LOOP
+frame vista_smoke_rgb_11.tga 1
+frame vista_smoke_rgb_12.tga 1
+frame vista_smoke_rgb_13.tga 1
+frame vista_smoke_rgb_14.tga 1
+frame vista_smoke_rgb_15.tga 1
+
+sequence-rgb 11
+LOOP
+frame vista_smoke_rgb_15.tga 1
+frame vista_smoke_rgb_14.tga 1
+frame vista_smoke_rgb_13.tga 1
+frame vista_smoke_rgb_12.tga 1
+frame vista_smoke_rgb_11.tga 1
+
+sequence-rgb 12
+LOOP
+frame vista_smoke_rgb_11.tga 1
+frame vista_smoke_rgb_13.tga 1
+frame vista_smoke_rgb_15.tga 1
+frame vista_smoke_rgb_12.tga 1
+frame vista_smoke_rgb_14.tga 1
+
+sequence-rgb 13
+LOOP
+frame vista_smoke_rgb_15.tga 1
+frame vista_smoke_rgb_13.tga 1
+frame vista_smoke_rgb_11.tga 1
+frame vista_smoke_rgb_12.tga 1
+frame vista_smoke_rgb_14.tga 1
+
+sequence-rgb 14
+LOOP
+frame smokeTex0001_341.tga 1
+frame vista_smoke_rgb_11.tga 1
+frame smokeTex0002_341.tga 1
+frame vista_smoke_rgb_12.tga 1
+frame smokeTex0003_341.tga 1
+frame vista_smoke_rgb_13.tga 1
+frame smokeTex0004_341.tga 1
+frame vista_smoke_rgb_14.tga 1
+frame smokeTex0006_341.tga 1
+frame vista_smoke_rgb_15.tga 1
+frame smokeTex0007_341.tga 1
+
+
+sequence-rgb 15
+LOOP
+frame smokeTex0007_341.tga 1
+frame vista_smoke_rgb_15.tga 1
+frame smokeTex0006_341.tga 1
+frame vista_smoke_rgb_14.tga 1
+frame smokeTex0004_341.tga 1
+frame vista_smoke_rgb_13.tga 1
+frame smokeTex0003_341.tga 1
+frame vista_smoke_rgb_12.tga 1
+frame smokeTex0002_341.tga 1
+frame vista_smoke_rgb_11.tga 1
+frame smokeTex0001_341.tga 1
+
+sequence-rgb 16
+LOOP
+frame smokeTex0007_341.tga 1
+frame vista_smoke_rgb_12.tga 1
+frame smokeTex0004_341.tga 1
+frame vista_smoke_rgb_11.tga 1
+frame smokeTex0001_341.tga 1
+frame vista_smoke_rgb_15.tga 1
+frame smokeTex0003_341.tga 1
+frame vista_smoke_rgb_14.tga 1
+frame smokeTex0006_341.tga 1
+frame vista_smoke_rgb_13.tga 1
+frame smokeTex0002_341.tga 1
+
+sequence-rgb 17
+LOOP
+frame smokeTex0004_341.tga 1
+frame vista_smoke_rgb_12.tga 1
+frame smokeTex0007_341.tga 1
+frame vista_smoke_rgb_11.tga 1
+frame smokeTex0003_341.tga 1
+frame vista_smoke_rgb_14.tga 1
+frame smokeTex0001_341.tga 1
+frame vista_smoke_rgb_13.tga 1
+frame smokeTex0002_341.tga 1
+frame vista_smoke_rgb_15.tga 1
+frame smokeTex0006_341.tga 1
+
+sequence-rgb 18
+LOOP
+frame smokeTex0002_341.tga 1
+frame vista_smoke_rgb_15.tga 1
+frame smokeTex0006_341.tga 1
+frame vista_smoke_rgb_12.tga 1
+frame smokeTex0003_341.tga 1
+frame vista_smoke_rgb_11.tga 1
+frame smokeTex0001_341.tga 1
+frame vista_smoke_rgb_13.tga 1
+frame smokeTex0004_341.tga 1
+frame vista_smoke_rgb_14.tga 1
+frame smokeTex0007_341.tga 1
+
+sequence-rgb 19
+LOOP
+frame smokeTex0003_341.tga 1
+frame vista_smoke_rgb_13.tga 1
+frame smokeTex0007_341.tga 1
+frame vista_smoke_rgb_15.tga 1
+frame smokeTex0003_341.tga 1
+frame vista_smoke_rgb_14.tga 1
+frame smokeTex0002_341.tga 1
+frame vista_smoke_rgb_11.tga 1
+frame smokeTex0006_341.tga 1
+frame vista_smoke_rgb_12.tga 1
+frame smokeTex0001_341.tga 1
+
+
+sequence-rgb 27
+LOOP
+frame vista_fire_rgb_02_128.tga 1
+frame vista_fire_rgb_01_128.tga 1
+frame vista_fire_rgb_03_128.tga 1
+frame vista_fire_rgb_21_204.tga 1
+frame vista_fire_rgb_25_204.tga 1
+frame vista_fire_rgb_22_204.tga 1
+frame vista_fire_rgb_23_204.tga 1
+frame vista_fire_rgb_24_204.tga 1
+
+
+
+sequence-rgb 28
+LOOP
+frame vista_fire_rgb_03_128.tga 1
+frame vista_fire_rgb_02_128.tga 1
+frame vista_fire_rgb_01_128.tga 1
+frame vista_fire_rgb_25_204.tga 1
+frame vista_fire_rgb_21_204.tga 1
+frame vista_fire_rgb_24_204.tga 1
+frame vista_fire_rgb_23_204.tga 1
+frame vista_fire_rgb_22_204.tga 1
+
+
+
+sequence-rgb 29
+LOOP
+frame vista_fire_rgb_22_204.tga 1
+frame vista_fire_rgb_24_204.tga 1
+frame vista_fire_rgb_21_204.tga 1
+frame vista_fire_rgb_23_204.tga 1
+frame vista_fire_rgb_25_204.tga 1
+
+sequence-rgb 30
+LOOP
+frame vista_fire_rgb_03_128.tga 1
+frame vista_fire_rgb_21_204.tga 1
+frame vista_fire_rgb_25_204.tga 1
+frame vista_fire_rgb_23_204.tga 1
+frame vista_fire_rgb_22_204.tga 1
+frame vista_fire_rgb_24_204.tga 1
+
+
+sequence-rgb 31
+LOOP
+frame vista_fire_rgb_01_128.tga 1
+frame vista_fire_rgb_02_128.tga 1
+frame vista_fire_rgb_03_128.tga 1
+frame vista_fire_rgb_25_204.tga 1
+
+
+sequence-rgb 32
+LOOP
+frame vista_fire_rgb_03_128.tga 1
+frame vista_fire_rgb_02_128.tga 1
+frame vista_fire_rgb_01_128.tga 1
+frame vista_fire_rgb_21_204.tga 1
+
+
+sequence-rgb 33
+LOOP
+frame vista_fire_rgb_02_128.tga 1
+frame vista_fire_rgb_01_128.tga 1
+frame vista_fire_rgb_03_128.tga 1
+frame vista_fire_rgb_21_204.tga 1
+frame vista_fire_rgb_23_204.tga 1
+frame vista_fire_rgb_24_204.tga 1
+
+sequence-a 34
+frame explosion_alpha_01.tga 1
+
+sequence-a 35
+frame explosion_alpha_02.tga 1
+
+sequence-a 36
+frame explosion_alpha_03.tga 1
+
+sequence-a 37
+frame explosion_alpha_04.tga 1
+
+sequence-a 38
+frame explosion_alpha_01.tga 1
+frame explosion_alpha_02.tga 1
+frame explosion_alpha_03.tga 1
+frame explosion_alpha_04.tga 1
+
+sequence-a 39
+frame explosion_alpha_03.tga 1
+frame explosion_alpha_04.tga 1
+
+sequence-a 40
+frame explosion_alpha_02.tga 1
+frame explosion_alpha_03.tga 2
+frame explosion_alpha_04.tga 4
+
+sequence-rgb 41
+LOOP
+frame smokeTex0001_341.tga 1
+frame smokeTex0002_341.tga 1
+
+sequence-rgb 42
+LOOP
+frame smokeTex0002_341.tga 1
+frame smokeTex0002_341.tga 1
+
+sequence-rgb 43
+LOOP
+frame smokeTex0003_341.tga 1
+frame smokeTex0004_341.tga 1
+
+sequence-rgb 44
+LOOP
+frame smokeTex0004_341.tga 1
+frame smokeTex0006_341.tga 1
+
+sequence-rgb 45
+LOOP
+frame smokeTex0006_341.tga 1
+frame smokeTex0007_341.tga 1
+
+sequence-rgb 46
+LOOP
+frame smokeTex0007_341.tga 1
+frame smokeTex0001_341.tga 1
+
+sequence-rgb 47
+LOOP
+frame smokeTex0001_341.tga 1
+frame smokeTex0003_341.tga 1
+
+sequence-rgb 48
+LOOP
+frame smokeTex0002_341.tga 1
+frame smokeTex0004_341.tga 1
+
+sequence-rgb 49
+LOOP
+frame vista_smoke_rgb_11.tga 1
+frame vista_smoke_rgb_11.tga 1
+
+sequence-rgb 50
+LOOP
+frame vista_smoke_rgb_12.tga 1
+frame vista_smoke_rgb_12.tga 1
+
+sequence-rgb 51
+LOOP
+frame vista_smoke_rgb_13.tga 1
+frame vista_smoke_rgb_13.tga 1
+
+sequence-rgb 52
+LOOP
+frame vista_smoke_rgb_14.tga 1
+frame vista_smoke_rgb_14.tga 1
+
+sequence-rgb 53
+LOOP
+frame vista_smoke_rgb_15.tga 1
+frame vista_smoke_rgb_15.tga 1
+
+
+sequence-rgb 54
+LOOP
+frame smokeTex0007_341.tga 1
+frame smokeTex0007_341.tga 1
+
+sequence-rgb 55
+LOOP
+frame smokeTex0006_341.tga 1
+frame smokeTex0006_341.tga 1
+
+sequence-rgb 56
+LOOP
+frame smokeTex0001_341.tga 1
+frame smokeTex0001_341.tga 1
+
+sequence-rgb 57
+LOOP
+frame smokeTex0002_341.tga 1
+frame smokeTex0002_341.tga 1
+
+sequence-rgb 58
+LOOP
+frame smokeTex0003_341.tga 1
+frame smokeTex0003_341.tga 1
+
+sequence-rgb 59
+LOOP
+frame smokeTex0004_341.tga 1
+frame smokeTex0004_341.tga 1

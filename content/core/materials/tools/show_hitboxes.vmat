@@ -1,0 +1,17 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "tools_solid.vfx"
+
+	F_NO_ZTEST 1
+	F_TRANSLUCENT 1
+	F_UNLIT 1
+
+	g_flPhongExp "0.100"
+
+	Attributes
+	{
+		tools.toolsmaterial "1"
+	}
+}

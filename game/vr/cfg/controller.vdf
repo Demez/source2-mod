@@ -1,0 +1,26 @@
+"controller_mappings"
+{
+	"buttons"
+	{
+		//"left_trigger"		"kb:key_space"
+		//"right_trigger"		"kb:key_space"
+	}
+	
+	"pads"
+	{
+		//"left_click"		"kb:key_space"
+		//"right_click"		"kb:key_space"
+	}
+	
+	"settings"
+	{
+		"left_trackpad_mode"	"none"
+		"right_trackpad_mode"	"none"
+	}
+	
+	"metadata"
+	{
+		"title"    		"Raw Steam Controller"
+		"description"		""
+	}
+}

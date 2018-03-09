@@ -1,0 +1,201 @@
+// Repeats for backwards compat
+sequence 0
+frame Fire_Particle_4_089.tga Fire_Particle_4_089.tga 1
+//frame Fire_Particle_4_090.tga Fire_Particle_4_090.tga 1
+frame Fire_Particle_4_091.tga Fire_Particle_4_091.tga 1
+//frame Fire_Particle_4_092.tga Fire_Particle_4_092.tga 1
+frame Fire_Particle_4_093.tga Fire_Particle_4_093.tga 1
+//frame Fire_Particle_4_094.tga Fire_Particle_4_094.tga 1
+frame Fire_Particle_4_095.tga Fire_Particle_4_095.tga 1
+//frame Fire_Particle_4_096.tga Fire_Particle_4_096.tga 1
+frame Fire_Particle_4_097.tga Fire_Particle_4_097.tga 1
+//frame Fire_Particle_4_098.tga Fire_Particle_4_098.tga 1
+frame Fire_Particle_4_099.tga Fire_Particle_4_099.tga 1
+//frame Fire_Particle_4_100.tga Fire_Particle_4_100.tga 1
+frame Fire_Particle_4_101.tga Fire_Particle_4_101.tga 1
+//frame Fire_Particle_4_102.tga Fire_Particle_4_102.tga 1
+frame Fire_Particle_4_103.tga Fire_Particle_4_103.tga 1
+//frame Fire_Particle_4_104.tga Fire_Particle_4_104.tga 1
+frame Fire_Particle_4_105.tga Fire_Particle_4_105.tga 1
+//frame Fire_Particle_4_106.tga Fire_Particle_4_106.tga 1
+frame Fire_Particle_4_107.tga Fire_Particle_4_107.tga 1
+//frame Fire_Particle_4_108.tga Fire_Particle_4_108.tga 1
+frame Fire_Particle_4_109.tga Fire_Particle_4_109.tga 1
+//frame Fire_Particle_4_110.tga Fire_Particle_4_110.tga 1
+frame Fire_Particle_4_111.tga Fire_Particle_4_111.tga 1
+//frame Fire_Particle_4_112.tga Fire_Particle_4_112.tga 1
+frame Fire_Particle_4_113.tga Fire_Particle_4_113.tga 1
+//frame Fire_Particle_4_114.tga Fire_Particle_4_114.tga 1
+frame Fire_Particle_4_115.tga Fire_Particle_4_115.tga 1
+//frame Fire_Particle_4_116.tga Fire_Particle_4_116.tga 1
+frame Fire_Particle_4_117.tga Fire_Particle_4_117.tga 1
+//frame Fire_Particle_4_118.tga Fire_Particle_4_118.tga 1
+frame Fire_Particle_4_119.tga Fire_Particle_4_119.tga 1
+//frame Fire_Particle_4_120.tga Fire_Particle_4_120.tga 1
+sequence 1
+frame Fire_Particle_4_089.tga Fire_Particle_4_089.tga 1
+//frame Fire_Particle_4_090.tga Fire_Particle_4_090.tga 1
+frame Fire_Particle_4_091.tga Fire_Particle_4_091.tga 1
+//frame Fire_Particle_4_092.tga Fire_Particle_4_092.tga 1
+frame Fire_Particle_4_093.tga Fire_Particle_4_093.tga 1
+//frame Fire_Particle_4_094.tga Fire_Particle_4_094.tga 1
+frame Fire_Particle_4_095.tga Fire_Particle_4_095.tga 1
+//frame Fire_Particle_4_096.tga Fire_Particle_4_096.tga 1
+frame Fire_Particle_4_097.tga Fire_Particle_4_097.tga 1
+//frame Fire_Particle_4_098.tga Fire_Particle_4_098.tga 1
+frame Fire_Particle_4_099.tga Fire_Particle_4_099.tga 1
+//frame Fire_Particle_4_100.tga Fire_Particle_4_100.tga 1
+frame Fire_Particle_4_101.tga Fire_Particle_4_101.tga 1
+//frame Fire_Particle_4_102.tga Fire_Particle_4_102.tga 1
+frame Fire_Particle_4_103.tga Fire_Particle_4_103.tga 1
+//frame Fire_Particle_4_104.tga Fire_Particle_4_104.tga 1
+frame Fire_Particle_4_105.tga Fire_Particle_4_105.tga 1
+//frame Fire_Particle_4_106.tga Fire_Particle_4_106.tga 1
+frame Fire_Particle_4_107.tga Fire_Particle_4_107.tga 1
+//frame Fire_Particle_4_108.tga Fire_Particle_4_108.tga 1
+frame Fire_Particle_4_109.tga Fire_Particle_4_109.tga 1
+//frame Fire_Particle_4_110.tga Fire_Particle_4_110.tga 1
+frame Fire_Particle_4_111.tga Fire_Particle_4_111.tga 1
+//frame Fire_Particle_4_112.tga Fire_Particle_4_112.tga 1
+frame Fire_Particle_4_113.tga Fire_Particle_4_113.tga 1
+//frame Fire_Particle_4_114.tga Fire_Particle_4_114.tga 1
+frame Fire_Particle_4_115.tga Fire_Particle_4_115.tga 1
+//frame Fire_Particle_4_116.tga Fire_Particle_4_116.tga 1
+frame Fire_Particle_4_117.tga Fire_Particle_4_117.tga 1
+//frame Fire_Particle_4_118.tga Fire_Particle_4_118.tga 1
+frame Fire_Particle_4_119.tga Fire_Particle_4_119.tga 1
+//frame Fire_Particle_4_120.tga Fire_Particle_4_120.tga 1
+// Fire Animated Sequence - Flametlet 2 Only
+sequence 2
+frame Fire_Particle_4_089.tga Fire_Particle_4_089.tga 1
+//frame Fire_Particle_4_090.tga Fire_Particle_4_090.tga 1
+frame Fire_Particle_4_091.tga Fire_Particle_4_091.tga 1
+//frame Fire_Particle_4_092.tga Fire_Particle_4_092.tga 1
+frame Fire_Particle_4_093.tga Fire_Particle_4_093.tga 1
+//frame Fire_Particle_4_094.tga Fire_Particle_4_094.tga 1
+frame Fire_Particle_4_095.tga Fire_Particle_4_095.tga 1
+//frame Fire_Particle_4_096.tga Fire_Particle_4_096.tga 1
+frame Fire_Particle_4_097.tga Fire_Particle_4_097.tga 1
+//frame Fire_Particle_4_098.tga Fire_Particle_4_098.tga 1
+frame Fire_Particle_4_099.tga Fire_Particle_4_099.tga 1
+//frame Fire_Particle_4_100.tga Fire_Particle_4_100.tga 1
+frame Fire_Particle_4_101.tga Fire_Particle_4_101.tga 1
+//frame Fire_Particle_4_102.tga Fire_Particle_4_102.tga 1
+frame Fire_Particle_4_103.tga Fire_Particle_4_103.tga 1
+//frame Fire_Particle_4_104.tga Fire_Particle_4_104.tga 1
+frame Fire_Particle_4_105.tga Fire_Particle_4_105.tga 1
+//frame Fire_Particle_4_106.tga Fire_Particle_4_106.tga 1
+frame Fire_Particle_4_107.tga Fire_Particle_4_107.tga 1
+//frame Fire_Particle_4_108.tga Fire_Particle_4_108.tga 1
+frame Fire_Particle_4_109.tga Fire_Particle_4_109.tga 1
+//frame Fire_Particle_4_110.tga Fire_Particle_4_110.tga 1
+frame Fire_Particle_4_111.tga Fire_Particle_4_111.tga 1
+//frame Fire_Particle_4_112.tga Fire_Particle_4_112.tga 1
+frame Fire_Particle_4_113.tga Fire_Particle_4_113.tga 1
+//frame Fire_Particle_4_114.tga Fire_Particle_4_114.tga 1
+frame Fire_Particle_4_115.tga Fire_Particle_4_115.tga 1
+//frame Fire_Particle_4_116.tga Fire_Particle_4_116.tga 1
+frame Fire_Particle_4_117.tga Fire_Particle_4_117.tga 1
+//frame Fire_Particle_4_118.tga Fire_Particle_4_118.tga 1
+frame Fire_Particle_4_119.tga Fire_Particle_4_119.tga 1
+//frame Fire_Particle_4_120.tga Fire_Particle_4_120.tga 1
+// Fire Animated Sequence - Flametlet 2 Only
+sequence 3
+frame Fire_Particle_4_089.tga Fire_Particle_4_089.tga 1
+//frame Fire_Particle_4_090.tga Fire_Particle_4_090.tga 1
+frame Fire_Particle_4_091.tga Fire_Particle_4_091.tga 1
+//frame Fire_Particle_4_092.tga Fire_Particle_4_092.tga 1
+frame Fire_Particle_4_093.tga Fire_Particle_4_093.tga 1
+//frame Fire_Particle_4_094.tga Fire_Particle_4_094.tga 1
+frame Fire_Particle_4_095.tga Fire_Particle_4_095.tga 1
+//frame Fire_Particle_4_096.tga Fire_Particle_4_096.tga 1
+frame Fire_Particle_4_097.tga Fire_Particle_4_097.tga 1
+//frame Fire_Particle_4_098.tga Fire_Particle_4_098.tga 1
+frame Fire_Particle_4_099.tga Fire_Particle_4_099.tga 1
+//frame Fire_Particle_4_100.tga Fire_Particle_4_100.tga 1
+frame Fire_Particle_4_101.tga Fire_Particle_4_101.tga 1
+//frame Fire_Particle_4_102.tga Fire_Particle_4_102.tga 1
+frame Fire_Particle_4_103.tga Fire_Particle_4_103.tga 1
+//frame Fire_Particle_4_104.tga Fire_Particle_4_104.tga 1
+frame Fire_Particle_4_105.tga Fire_Particle_4_105.tga 1
+//frame Fire_Particle_4_106.tga Fire_Particle_4_106.tga 1
+frame Fire_Particle_4_107.tga Fire_Particle_4_107.tga 1
+//frame Fire_Particle_4_108.tga Fire_Particle_4_108.tga 1
+frame Fire_Particle_4_109.tga Fire_Particle_4_109.tga 1
+//frame Fire_Particle_4_110.tga Fire_Particle_4_110.tga 1
+frame Fire_Particle_4_111.tga Fire_Particle_4_111.tga 1
+//frame Fire_Particle_4_112.tga Fire_Particle_4_112.tga 1
+frame Fire_Particle_4_113.tga Fire_Particle_4_113.tga 1
+//frame Fire_Particle_4_114.tga Fire_Particle_4_114.tga 1
+frame Fire_Particle_4_115.tga Fire_Particle_4_115.tga 1
+//frame Fire_Particle_4_116.tga Fire_Particle_4_116.tga 1
+frame Fire_Particle_4_117.tga Fire_Particle_4_117.tga 1
+//frame Fire_Particle_4_118.tga Fire_Particle_4_118.tga 1
+frame Fire_Particle_4_119.tga Fire_Particle_4_119.tga 1
+//frame Fire_Particle_4_120.tga Fire_Particle_4_120.tga 1
+sequence 4
+frame Fire_Particle_4_089.tga Fire_Particle_4_089.tga 1
+//frame Fire_Particle_4_090.tga Fire_Particle_4_090.tga 1
+frame Fire_Particle_4_091.tga Fire_Particle_4_091.tga 1
+//frame Fire_Particle_4_092.tga Fire_Particle_4_092.tga 1
+frame Fire_Particle_4_093.tga Fire_Particle_4_093.tga 1
+//frame Fire_Particle_4_094.tga Fire_Particle_4_094.tga 1
+frame Fire_Particle_4_095.tga Fire_Particle_4_095.tga 1
+//frame Fire_Particle_4_096.tga Fire_Particle_4_096.tga 1
+frame Fire_Particle_4_097.tga Fire_Particle_4_097.tga 1
+//frame Fire_Particle_4_098.tga Fire_Particle_4_098.tga 1
+frame Fire_Particle_4_099.tga Fire_Particle_4_099.tga 1
+//frame Fire_Particle_4_100.tga Fire_Particle_4_100.tga 1
+frame Fire_Particle_4_101.tga Fire_Particle_4_101.tga 1
+//frame Fire_Particle_4_102.tga Fire_Particle_4_102.tga 1
+frame Fire_Particle_4_103.tga Fire_Particle_4_103.tga 1
+//frame Fire_Particle_4_104.tga Fire_Particle_4_104.tga 1
+frame Fire_Particle_4_105.tga Fire_Particle_4_105.tga 1
+//frame Fire_Particle_4_106.tga Fire_Particle_4_106.tga 1
+frame Fire_Particle_4_107.tga Fire_Particle_4_107.tga 1
+//frame Fire_Particle_4_108.tga Fire_Particle_4_108.tga 1
+frame Fire_Particle_4_109.tga Fire_Particle_4_109.tga 1
+//frame Fire_Particle_4_110.tga Fire_Particle_4_110.tga 1
+frame Fire_Particle_4_111.tga Fire_Particle_4_111.tga 1
+//frame Fire_Particle_4_112.tga Fire_Particle_4_112.tga 1
+frame Fire_Particle_4_113.tga Fire_Particle_4_113.tga 1
+//frame Fire_Particle_4_114.tga Fire_Particle_4_114.tga 1
+frame Fire_Particle_4_115.tga Fire_Particle_4_115.tga 1
+//frame Fire_Particle_4_116.tga Fire_Particle_4_116.tga 1
+frame Fire_Particle_4_117.tga Fire_Particle_4_117.tga 1
+//frame Fire_Particle_4_118.tga Fire_Particle_4_118.tga 1
+frame Fire_Particle_4_119.tga Fire_Particle_4_119.tga 1
+//frame Fire_Particle_4_120.tga Fire_Particle_4_120.tga 1
+
+sequence 5
+frame Fire_Particle_4_089.tga Fire_Particle_4_089.tga 1
+sequence 6
+frame Fire_Particle_4_091.tga Fire_Particle_4_091.tga 1
+sequence 7
+frame Fire_Particle_4_093.tga Fire_Particle_4_093.tga 1
+sequence 8
+frame Fire_Particle_4_095.tga Fire_Particle_4_095.tga 1
+sequence 9
+frame Fire_Particle_4_097.tga Fire_Particle_4_097.tga 1
+sequence 10
+frame Fire_Particle_4_099.tga Fire_Particle_4_099.tga 1
+sequence 11
+frame Fire_Particle_4_101.tga Fire_Particle_4_101.tga 1
+sequence 12
+frame Fire_Particle_4_103.tga Fire_Particle_4_103.tga 1
+sequence 13
+frame Fire_Particle_4_105.tga Fire_Particle_4_105.tga 1
+sequence 14
+frame Fire_Particle_4_107.tga Fire_Particle_4_107.tga 1
+sequence 15
+frame Fire_Particle_4_109.tga Fire_Particle_4_109.tga 1
+sequence 16
+frame Fire_Particle_4_111.tga Fire_Particle_4_111.tga 1
+sequence 17
+frame Fire_Particle_4_113.tga Fire_Particle_4_113.tga 1
+sequence 18
+frame Fire_Particle_4_115.tga Fire_Particle_4_115.tga 1
+sequence 19
+frame Fire_Particle_4_117.tga Fire_Particle_4_117.tga 1
+sequence 20
+frame Fire_Particle_4_119.tga Fire_Particle_4_119.tga 1

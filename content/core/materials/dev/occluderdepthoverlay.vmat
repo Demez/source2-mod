@@ -1,0 +1,9 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "occluder_depth_overlay.vfx"
+
+	g_flAlpha "0.757"
+	g_vColorTint "[1.000000 0.000000 0.000000 1.000000]"
+}

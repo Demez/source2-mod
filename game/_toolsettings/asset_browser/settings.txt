@@ -1,0 +1,41 @@
+""
+{
+	"options.m_bShowAllAssets"		"0"
+	"options.m_bUsePerforceIntegration"		"1"
+	"GlobalAssetBrowserContext"
+	{
+		"browser_geo"		"AdnQywABAAAAAAD0AAABMQAABR0AAAQTAAAA/AAAAVAAAAUVAAAECwAAAAAAAA=="
+		"browser_state"		"AAAA/wAAAAD9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAfsAAAA4AEEAcwBzAGUAdABCAHIAbwB3AHMAZQByAF8AVwBvAHIAawBpAG4AZwBTAGUAdABzAEQAbwBjAGsAAAAAAP////8AAAEsAP///wAAAAEAAAFeAAACYPwCAAAAAfsAAAAwAEEAcwBzAGUAdABCAHIAbwB3AHMAZQByAF8AUAByAGUAdgBpAGUAdwBEAG8AYwBrAQAAAEgAAAJgAAAArQD///8AAAK4AAACYAAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAABAAAAEABUAG8AbwBsAHMAQgBhAHIBAAAAAP////8AAAAAAAAAAA=="
+		"preview_splitter"		"AAAA/wAAAAAAAAACAAABigAAAMUAAAAABgEAAAAC"
+		"browser_visible"		"1"
+		"browser_views"
+		{
+			"view_info"
+			{
+				"set_name"		"All Assets"
+				"view_mode_name"		"Grid"
+				"mod_selection"
+				{
+					"selected_mods"
+					{
+						"dota_addons"
+						{
+							"test"		"1"
+						}
+						"dota"		"1"
+						"dota_imported"		"1"
+						"dota_core"		"1"
+					}
+				}
+				"List"
+				{
+					"column_0_width"		"100"
+					"column_1_width"		"100"
+					"column_2_width"		"100"
+					"column_3_width"		"100"
+				}
+				"active_view"		"1"
+			}
+		}
+	}
+}

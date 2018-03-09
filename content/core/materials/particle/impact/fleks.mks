@@ -1,0 +1,128 @@
+sequence 0
+frame glass01.tga 1
+sequence 1
+frame glass02.tga 1
+sequence 2
+frame glass03.tga 1
+sequence 3
+frame glass04.tga 1
+sequence 4
+frame glass05.tga 1
+sequence 5
+frame tile01.tga 1
+sequence 6
+frame tile02.tga 1
+sequence 7
+frame tile03.tga 1
+sequence 8
+frame tile04.tga 1
+sequence 9
+frame tile05.tga 1
+sequence 10
+frame wood01.tga 1
+sequence 11
+frame wood02.tga 1
+sequence 12
+frame wood03.tga 1
+sequence 13
+frame wood04.tga 1
+sequence 14
+frame wood05.tga 1
+sequence 15
+frame asphalt01.tga 1
+sequence 16
+frame asphalt02.tga 1
+sequence 17
+frame asphalt03.tga 1
+sequence 18
+frame asphalt04.tga 1
+sequence 19
+frame asphalt05.tga 1
+sequence 20
+frame brick01.tga 1
+sequence 21
+frame brick02.tga 1
+sequence 22
+frame brick03.tga 1
+sequence 23
+frame brick04.tga 1
+sequence 24
+frame brick05.tga 1
+sequence 25
+frame cardboard01.tga 1
+sequence 26
+frame cardboard02.tga 1
+sequence 27
+frame cardboard03.tga 1
+sequence 28
+frame cardboard04.tga 1
+sequence 29
+frame cardboard05.tga 1
+sequence 30
+frame clay01.tga 1
+sequence 31
+frame clay02.tga 1
+sequence 32
+frame clay03.tga 1
+sequence 33
+frame clay04.tga 1
+sequence 34
+frame clay05.tga 1
+sequence 35
+frame concrete01.tga 1
+sequence 36
+frame concrete02.tga 1
+sequence 37
+frame concrete03.tga 1
+sequence 38
+frame concrete04.tga 1
+sequence 39
+frame concrete05.tga 1
+sequence 40
+frame electronic01.tga 1
+sequence 41
+frame electronic02.tga 1
+sequence 42
+frame electronic03.tga 1
+sequence 43
+frame electronic04.tga 1
+sequence 44
+frame electronic05.tga 1
+sequence 45
+frame plastic01.tga 1
+sequence 46
+frame plastic02.tga 1
+sequence 47
+frame plastic03.tga 1
+sequence 48
+frame plastic04.tga 1
+sequence 49
+frame plastic05.tga 1
+sequence 50
+frame rock01.tga 1
+sequence 51
+frame rock02.tga 1
+sequence 52
+frame rock03.tga 1
+sequence 53
+frame rock04.tga 1
+sequence 54
+frame rock05.tga 1
+sequence 55
+frame sheetrock01.tga 1
+sequence 56
+frame sheetrock02.tga 1
+sequence 57
+frame sheetrock03.tga 1
+sequence 58
+frame sheetrock04.tga 1
+sequence 59
+frame sheetrock05.tga 1
+sequence 60
+frame plaster01.tga 1
+sequence 61
+frame plaster02.tga 1
+sequence 62
+frame plaster03.tga 1
+sequence 63
+frame plaster04.tga 1

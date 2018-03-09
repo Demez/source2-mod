@@ -1,0 +1,37 @@
+// sequence 0 = 1 2 3 4 looped
+// sequence 1 = 1 2 3 4 clamped
+// sequence 2 = a b c looped
+// sequence 3 = a.......b c (uneven timing)
+//
+// frame x.tga 1 noalphacrop would emit full image without cropping alpha
+// TODO: <vitaliy> maybe put it on the SEQUENCE for dual-sequence particles
+//
+
+// This instruction will generate 2 extra mip levels
+mips 2
+
+SEQUENCE 0
+loop
+frame frame1.tga 1
+frame frame2.tga 1
+frame frame3.tga 1
+frame frame4.tga 1
+
+SEQUENCE 1
+frame frame1.tga 1
+frame frame2.tga 1
+frame frame3.tga 1
+frame frame4.tga 1
+
+SEQUENCE 2
+frame lettera.tga 1
+frame letterb.tga 1
+frame letterc.tga 1
+
+SEQUENCE 3
+loop
+frame lettera.tga 10
+frame letterb.tga 1
+frame letterc.tga 1
+
+

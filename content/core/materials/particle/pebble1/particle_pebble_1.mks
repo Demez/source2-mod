@@ -1,0 +1,9 @@
+// Gib sequences
+sequence 0
+frame particle_pebble_1a.tga 1
+sequence 1
+frame particle_pebble_1b.tga 1
+sequence 2
+frame particle_pebble_1c.tga 1
+sequence 3
+frame particle_pebble_1d.tga 1

@@ -1,0 +1,14 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "tools_modelviewer_wireframe.vfx"
+
+	//---- Color ----
+	g_vColor "[1.000000 0.988235 0.003922 0.000000]"
+
+	Attributes
+	{
+		tools.toolsmaterial "1"
+	}
+}

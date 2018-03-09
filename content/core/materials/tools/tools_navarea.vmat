@@ -1,0 +1,33 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "tools_wireframe.vfx"
+
+	F_TRANSLUCENT 1
+
+	//---- Depth Bias Amount ----
+	g_DepthBiasAmount "0.005"
+
+	//---- Line Thickness ----
+	g_LineThickness "1.000"
+
+	//---- Override Color ----
+	g_OverrideColorFactor "0.000"
+	g_vOverrideColor "[0.000000 0.000000 0.000000 1.000000]"
+
+	Attributes
+	{
+		mapbuilder.nodraw "1"
+		mapbuilder.playerclip "1"
+		mapbuilder.npcclip "1"
+		tools.toolsmaterial "1"
+	}
+
+	DynamicParams
+	{
+		g_DepthBiasAmount "DepthBiasAmount"
+		g_OverrideColorFactor "OverrideColorFactor"
+		g_vOverrideColor "OverrideColor"
+	}
+}

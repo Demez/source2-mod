@@ -1,0 +1,181 @@
+{\rtf1\mac\ansicpg10000\cocoartf102
+{\fonttbl\f0\fswiss\fcharset77 ArialMS;}
+{\colortbl;\red255\green255\blue255;}
+\vieww17680\viewh19720\viewkind0
+\deftab720
+\pard\pardeftab720\ql\qnatural
+
+\f0\fs48 \cf0 motionmapper.exe\
+\
+
+\fs24 	Motionmapper is a commandline tool designed specifically to remap motion from a "source" .smd skeleton to a "target" .smd skeleton. The target is assumed to have been built such that bone lengths and locations are somewhat different from the source. Used in it's default state, motionmapper does it's best to maintain the animation "feel" of the source animation, while solving for limb extremity location (ie: feet on the ground and hands on weapons).
+\fs48 \
+\
+
+\fs28 \ul Basic Usage:\
+
+\fs24 \ul \
+\ulnone \
+>motionmapper sourceAnimation.smd targetSkeleton.smd mappedMotion.smd\
+\
+Executing the above on a command line will execute a default mapping of the animation in the "sourceAnimation.smd" file to the skeleton defined in the first frame of animation in the "targetSkeleton.smd" file and will output the results into the "mappedMotion.smd" file.\
+\
+Some notes on the .smd files used:\
+\
+1)  Motionmapper determines it's mapping by comparing the source skeleton to the target skeleton. Because there is no "default pose" inherent in the .smd files, motionmapper uses the first "frame" of animation from both the source and target .smd files. Thus:\
+	a) Both the source and target files must have a minimum of 1 frame of animation.\
+	b) The target need not have more than 1 frame of animation as it will be overwritten anyway.\
+\
+2) Motionmapper assumes both the source and target skeletons have EXACTLY the same hierarchical structure with the exception of bone length and joint orientation. Thus:\
+	a) Both the source and target skeletons must have the same number of bones arranged in the same hierarchical order.\
+	b) It is not neccesary for the source and target bones to have the same names as long as their locations in the hierarchy are equivalent.\
+	c) When utilizing template file options, bone names always refer to the names used in the "source" .smd file.\
+\
+3) Motionmapper assumes the skeletons are in the standard valve coordinate frame and built standard:\
+	a) As far as the root is concerned "Z" is up and down.\
+	b) The root is the only bone to have both translation and rotation animation, all other bones are rotation only.\
+	c) Bone lengths are typically along "X" and if not universally jointed rotate around "Z"\
+\
+\
+
+\fs28 \ul Using Template Files:\
+\
+
+\fs24 \ulnone When motionmapper is used without the -templateFile argument, it does a "default" mapping from the source skeleton to the target skeleton. Various parameters in the mapping can be changed to achieve different motion effects. These parameters need to be placed in a text file and that file used as the option to the -templateFile argument.\
+\
+\pard\pardeftab720\ql\qnatural
+
+\fs28 \cf0 \ul \ulc0 Generic Template Files:\
+\pard\pardeftab720\ql\qnatural
+
+\fs24 \cf0 \ulnone \
+Motionmapper comes with a set of "generic" template files that should fulfill most your needs:\
+\
+1) walk.mmt\
+\
+	Basic template for walk/run cycles and non-two handed weapon motions.\
+\
+2) twoHandedWeapon.mmt\
+\
+Basic template for two handed, non-shoulder fired, weapon motions, wherein the left hand maintains it's exact relationship to the right but the right is motion mapped to the new skeleton.\
+\
+3) twoHandedShoulderWeapon.mmt\
+\
+Basic template for two handed, shoulder fired, weapon motions, wherein the left hand maintains it's exact relationship to the right and the right hand maintains it's exact relationship to the shoulder (Spine2).\
+\
+Note that both the "twoHandedWeapon" templates use "relativeLock", which assumes that the distance between the mapped joint and it's "relativeLock" has not been altered in the destination skeleton. If that distance has been changed, it's possible to scale the "locked" joint by altering the scalar argument at the end of the command.\
+\
+4) rootLock.mmt\
+\
+This template is for motions wherein the character interacts with an object in the environment. No actual "mapping" is done to foot and hand positions. However, the new joint lengths are solved for.\
+\
+Note that the positions of the hands and feet will attempt to remain the same relative to the ROOT, which is not changed from the source animation. If bones lengths are shortened significantly this may not be possible and you may get motion artifacts.\
+\
+\
+\pard\pardeftab720\ql\qnatural
+
+\fs28 \cf0 \ul \ulc0 Alternate Template Files:\
+\pard\pardeftab720\ql\qnatural
+
+\fs24 \cf0 \ulnone \
+Please note: When a template file is used motionmapper abandons all "default" settings and depend entirely on the template file to guide it's mapping. Thus:\
+	1) When using a template file, the template file must fully specify the mapping desired.\
+\
+To make this task easier, there are a few ways to build template files, one is to just use one of the 6 or 7 template files supplied with \
+motionmapper:\
+\
+default.mmt\
+template1.mmt\
+template2.mmt\
+template3.mmt\
+template4.mmt\
+template5.mmt\
+template6.mmt\
+template7.mmt\
+\
+Beside the "default.mmt" file, each one of these templates exhibit some form of varied motionmapping and have some comments regarding their function.\
+\
+Alternately you can use the -printTemplate argument in motionmapper and pipe the output into a file and work from there:\
+\
+>motionmapper -printTemplates > myTemplate.txt\
+\
+This will give you a file that is the equivalent to motionmapper's default settings, which you can then edit from there.\
+\
+\
+This default file is not heavily commented and does not contain alot of explanation. An explanation of the default template settings and their variations follows.\
+\
+
+\fs28 \ul Template Settings\ulnone \
+\
+
+\fs24 Template files contain actions and attributes. They both take arguments on the same line. The main difference is that actions can be scheduled and attributes are the parameters for those actions. It's admittedly a little confusing and may be changed at some juncture into a more consistent form. We will discuss them as they appear in the default.mmt file.\
+\
+rootScaleJoint ValveBiped.Bip01_L_Foot\
+\
+The rootScaleJoint command takes one argument that specifies which two jointed limb to base it's root motion scaling on. This is typically one of the feet as an alteration in the length of the legs would usually be the only reason to scale the root.\
+Note: specifying a limb that isn't also specified in a "twoJointIKSolve" (below) will most certainly result in slipping feet.\
+\
+rootScaleAmount 1.0\
+\
+While the argument to this attribute is a floating point value, this attribute is included for the sole purpose of turning root scaling on and off, which will be discussed in the "Alternate Mappings" section.\
+\
+toFloorZ 2.7777\
+\
+This attribute specifies where along the "z" axis the "floor" lives. This attribute affects both the root scaling as well as the "oneJointPlaneConstraint" (below).\
+\
+twoJointIKSolve ValveBiped.Bip01_L_Foot\
+
+\fs20 \
+
+\fs24 This action can actually scheduled multiple times in the same template file and (preferably) on different joints. The objective of this command and it's various attributes is to establish a position based relationship between the joint and it's grandparent in the source skeleton and then to replicate that relationship in the target. The various attributes specify ways of altering that relationship. You'll notice in the default.mmt template file that there are 4 twoJointIKSolves scheduled:\
+\
+ValveBiped.Bip01_L_Foot\
+ValveBiped.Bip01_R_Foot\
+ValveBiped.Bip01_L_Hand\
+ValveBiped.Bip01_R_Hand\
+\
+reverseSolve 0.0\
+\
+This attribute tells the IK solver to bend the joint one way or the other. You'll notice looking at the template file that elbows are actually bent the reverse of knees.\
+\
+extremityScale 1.0\
+\
+This attribute is determining whether or not to match the motion of the extremity being solved for to it's new limb length or to maintain the same scale of animation as it's source. Note: this attribute, when applied to feet, is inimately related to rootScaleAmount and they should be set the same.\
+\
+limbRootOffsetScale 1.0 1.0 0.0\
+\
+This attribute is specifying how much and along which axis (in root space) to mimic the change in the limb's root or the joint being solved's grandparent. In other words, if the hips are now wider, do we want the feet to be spread wider as well? Same goes for shoulders, do we want the hands to be spread wider if the shoulders are wider? The reason for the 3 axis argument is this: If the hips of the new skeleton are "lower", we don't actually want to offset the feet by that same amount as it will put them through the floor. The opposite could be potentially be true for the arms, if the shoulders are wider, the back shorter and your animation includes holding a weapon you would probably want the hands offset in vertical space so that they aren't up over the character's head but not neccessarily set wider apart as they would not longer be properly holding a weapon.\
+\
+relativeLock ValveBiped.Bip01_R_Hand 1.0\
+\
+This attribute is specifically for keep on hand in an absolute relationship to another hand, for holding weapons, etc. This attribute is typcially only set on one of the hands and hand being locked to needs to be solved before the hand being locked. The scalar value at the end of the attribute can be used to scale the location of the locked hand in the space of the "locking" hand, effectively growing or shrinking their relative distance (smaller or larger weapons).\
+\
+oneJointPlaneConstraint ValveBiped.Bip01_L_Toe0\
+\
+This is a simple one joint plane constraint that adjusts the parent joint such that the specified bone will not penetrate the "floor" as defined by the "toeFloorZ" attribute above. This is for keep toes above the ground when a twoJointIKSolve has pushed them below.\
+Note: This solve only works if the "foot" node is still above the ground, which it should always be if you are executing a reasonable mapping.\
+\
+\
+\pard\pardeftab720\ql\qnatural
+
+\fs28 \cf0 \ul \ulc0 Special Template Commands:\
+\pard\pardeftab720\ql\qnatural
+
+\fs24 \cf0 \ulnone \
+There are a couple of "special" commands that can be placed in a template file that are related to skeleton alteration and were primarily used for testing.\
+ They can be used for skeletal changes however.\
+\
+"jointScale"\
+\
+example:\
+jointScale ValveBiped.Bip01_L_Foot 1.5\
+\
+This would scale the left foot bone in the destination skeleton by a factor of 1.5\
+\
+"skeletonScale"\
+\
+example:\
+skeletonScale 1.5\
+\
+This would scale every bone in the destination skeleton by a factor of 1.5\
+}

@@ -1,0 +1,23 @@
+// nasty bits for headshot/gore fx  - ordered in groups of similar blends and desirability
+sequence 0
+frame headshot_06.tga 1
+sequence 1
+frame headshot_05.tga 1
+sequence 2
+frame headshot_08.tga 1
+sequence 3
+frame headshot_13.tga 1
+sequence 4
+frame headshot_14.tga 1
+sequence 5
+frame headshot_17.tga 1
+sequence 6
+frame headshot_18.tga 1
+sequence 7
+frame headshot_02.tga 1
+sequence 8
+frame headshot_03.tga 1
+sequence 9
+frame headshot_11.tga 1
+sequence 10
+frame headshot_12.tga 1

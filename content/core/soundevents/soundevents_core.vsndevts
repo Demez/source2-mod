@@ -1,0 +1,52 @@
+"core.soundscape_2d"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator" "sos_reference_stack"
+				"reference_stack" "src1_code_2d"
+				"operator_variables"
+				{
+					"voice_limiter_on"
+					{	
+						"value" "0"
+					}
+					"vsnd_files"
+					{
+						"value" "sounds/diagnostics/bell.vsnd"
+					}
+				}
+			}
+		}
+	}
+}
+"core.soundscape_3d"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator" "sos_reference_stack"
+				"reference_stack" "src1_code_3d"
+				"operator_variables"
+				{
+					"voice_limiter_on"
+					{	
+						"value" "0"
+					}
+					"vsnd_files"
+					{
+						"value" "sounds/diagnostics/bell.vsnd"
+					}
+				}
+			}
+		}
+	}
+}
+
+

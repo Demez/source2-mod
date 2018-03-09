@@ -1,0 +1,13 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "bilateral_blur.vfx"
+
+	F_HORZ_BLUR 1
+
+	g_flBlurCosAngThresh "0.600"
+	g_flBlurZThresh "11.000"
+	g_flBlurZThresh "11.000"
+	g_flOcclusionExp "1.000"
+}

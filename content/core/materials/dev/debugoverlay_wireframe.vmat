@@ -1,0 +1,15 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "debugoverlay_wireframe.vfx"
+
+	g_flPhongBoost "0.100"
+	g_flPhongExp "0.100"
+
+	//---- Albedo ----
+	g_vAlbedo "[0.501961 0.501961 0.501961 0.000000]"
+
+	//---- Normal Map ----
+	g_flIndirectContrastBoost "0.000"
+}
