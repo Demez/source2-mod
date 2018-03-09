@@ -1,9 +1,0 @@
-// THIS FILE IS AUTO-GENERATED
-
-Layer0
-{
-	shader "occlusion.vfx"
-
-	F_DEBUG_DRAW_OCCLUDER 1
-	F_DEPTH_TEST 1
-}

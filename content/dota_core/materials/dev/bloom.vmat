@@ -1,9 +1,0 @@
-// THIS FILE IS AUTO-GENERATED
-
-Layer0
-{
-	shader "bloom_dota.vfx"
-
-	//---- Bloom Scale ----
-	g_flBloomScale "20.000"
-}

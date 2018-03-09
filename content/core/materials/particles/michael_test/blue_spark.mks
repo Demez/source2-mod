@@ -1,9 +1,0 @@
-SEQUENCE 0
-loop
-frame blue_spark.tga 1
-
-SEQUENCE 1
-loop
-frame blue_spark_1.tga 1
-frame blue_spark_2.tga 1
-frame blue_spark_3.tga 1

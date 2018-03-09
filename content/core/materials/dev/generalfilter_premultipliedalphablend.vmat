@@ -1,9 +1,0 @@
-// THIS FILE IS AUTO-GENERATED
-
-Layer0
-{
-	shader "general_filter.vfx"
-
-	//---- Blending ----
-	F_ALPHA_BLEND 1
-}

@@ -1,6 +1,0 @@
-// THIS FILE IS AUTO-GENERATED
-
-Layer0
-{
-	shader "deferred_global_light.vfx"
-}

@@ -1,9 +1,0 @@
-// THIS FILE IS AUTO-GENERATED
-
-Layer0
-{
-	shader "physics_wireframe.vfx"
-
-	F_DOTTED_LINE 1
-	F_HIDDEN_WIREFRAME 1
-}

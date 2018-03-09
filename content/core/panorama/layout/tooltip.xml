@@ -1,9 +1,0 @@
-<root>
-	<styles>		
-		<include src="file://{resources}/styles/panorama_base.css" />
-	</styles>
-	
-	<Tooltip>
-		<Label id="Text" />
-	</Tooltip>	
-</root>

@@ -1,6 +1,0 @@
-// THIS FILE IS AUTO-GENERATED
-
-Layer0
-{
-	shader "ssao_scalable_ambient_obscurance.vfx"
-}

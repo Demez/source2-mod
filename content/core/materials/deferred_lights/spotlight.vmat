@@ -1,8 +1,0 @@
-// THIS FILE IS AUTO-GENERATED
-
-Layer0
-{
-	shader "generic_light.vfx"
-
-	F_SPOT_LIGHT 1
-}
